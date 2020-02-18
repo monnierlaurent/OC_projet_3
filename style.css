@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: black;
+    margin: auto;
+}
+
+main {
+    width: 100%;
+    background-color: #fff;
+}
+
+h1 {
+    background-color: #80CBC4;
+    /*color material design teil 200*/
+    color: #FFEB3B;
+    /*color material design yellow 500*/
+    font-size: 5em;
+    text-align: center;
+}
+
+footer {
+    padding: 0 2em 0 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #80CBC4;
+    color: #FFEB3B;
+}
