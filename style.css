@@ -22,8 +22,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #80CBC4;
-    /*color material design teil 200*/
+    background-color: #009688;
+    /*color material design teil 500*/
 }
 
 h1 {
@@ -38,17 +38,47 @@ h1 {
 .container_menu {
     width: 100%;
     background-color: #fff;
+    padding-bottom: 4em;
 }
 
-.menu {
-    margin-top: 3em;
-    background-color: coral;
-    box-shadow: 0 0 10px;
-    width: 40%;
+.seize_lien_menu {
+    width: 45%;
     height: 40em;
+    box-shadow: 0 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.menu_flex {
+.color_menu_1 {
+    background-color: #ffcdd2;
+    /*color material design red 100*/
+}
+
+.color_menu_2 {
+    background-color: #ffebee;
+    /*color material design red 50*/
+}
+
+.color_menu_3 {
+    background-color: #ECEFF1;
+    /*color material design blue grey 50*/
+}
+
+.color_menu_4 {
+    background-color: #FAFAFA;
+    /*color material design grey 50*/
+}
+
+.fa-music {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #f44336, #FFAB91);
+}
+
+.flex_lien_menu {
+    padding: 4em 4em 4em 4em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -64,10 +94,11 @@ footer {
     justify-content: space-around;
     align-items: center;
     font-size: 2em;
-    background-color: #80CBC4;
+    background-color: #009688;
+    /*color material design teil 500*/
 }
 
-a {
+.lien_footer {
     text-decoration: none;
     color: #FFEB3B;
     font-family: sans-serif;
