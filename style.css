@@ -37,8 +37,21 @@ h1 {
 
 .container_menu {
     width: 100%;
-    flex: auto;
     background-color: #fff;
+}
+
+.menu {
+    margin-top: 3em;
+    background-color: coral;
+    box-shadow: 0 0 10px;
+    width: 40%;
+    height: 40em;
+}
+
+.menu_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 footer {
