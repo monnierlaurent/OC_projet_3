@@ -61,14 +61,33 @@ h1 {
     /*color material design red 50*/
 }
 
+.degrader_menu_2 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #f44336, #673AB7);
+}
+
 .color_menu_3 {
     background-color: #ECEFF1;
     /*color material design blue grey 50*/
 }
 
+.degrader_menu_3 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #1A237E, #90CAF9);
+    ;
+}
+
 .color_menu_4 {
     background-color: #FAFAFA;
     /*color material design grey 50*/
+}
+
+.degrader_menu_4 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, #388E3C, #76FF03);
 }
 
 .fa-music {
