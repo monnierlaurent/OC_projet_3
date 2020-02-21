@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-* {
-    margin: 0;
+@font-face {
+    font-family: "Satisfy";
+    src: url(ressources/fonts/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Merienda";
+    src: url(/ressources/fonts/Merienda-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DancingScript";
+    src: url(ressources/fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Caveat";
+    src: url(ressources/fonts/Caveat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url(/ressources/fonts/RobotoSlab-Regular.ttf);
 }
 
 body {
@@ -38,13 +59,13 @@ h1 {
 .container_menu {
     width: 100%;
     background-color: #fff;
-    padding-bottom: 4em;
+    padding-bottom: 7.5em;
 }
 
 .seize_lien_menu {
     width: 45%;
     height: 40em;
-    box-shadow: 0 0 1em;
+    box-shadow: 0 0 1.5em #9E9E9E;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,12 +77,36 @@ h1 {
     /*color material design red 100*/
 }
 
+.seize_texte_1 {
+    color: #3E2723;
+    text-decoration: none;
+    font-size: 4em;
+    font-family: "Caveat";
+}
+
+.degrader_menu_1 {
+    color: #3E2723;
+    font-family: "Satisfy";
+    margin-bottom: 0.75em;
+    font-size: 2.5em;
+}
+
 .color_menu_2 {
     background-color: #ffebee;
     /*color material design red 50*/
 }
 
+.seize_texte_2 {
+    color: #f44336;
+    text-decoration: none;
+    font-size: 4em;
+    font-family: "RobotoSlab";
+}
+
 .degrader_menu_2 {
+    font-family: "Merienda";
+    font-size: 2em;
+    margin-bottom: 0.75em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(left, #f44336, #673AB7);
@@ -72,11 +117,20 @@ h1 {
     /*color material design blue grey 50*/
 }
 
+.seize_texte_3 {
+    color: #90CAF9;
+    text-decoration: none;
+    font-size: 4em;
+    font-family: "Caveat";
+}
+
 .degrader_menu_3 {
+    font-family: "DancingScript";
+    font-size: 2.5em;
+    margin-bottom: 0.75em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(left, #1A237E, #90CAF9);
-    ;
 }
 
 .color_menu_4 {
@@ -84,13 +138,24 @@ h1 {
     /*color material design grey 50*/
 }
 
+.seize_texte_4 {
+    color: #388E3C;
+    text-decoration: none;
+    font-size: 4em;
+    font-family: "Caveat";
+}
+
 .degrader_menu_4 {
+    font-family: "Caveat";
+    font-size: 2.5em;
+    margin-bottom: 0.75em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(left, #388E3C, #76FF03);
 }
 
 .fa-music {
+    font-size: 2.5em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(left, #f44336, #FFAB91);
@@ -101,6 +166,11 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.flex_lien_prochainement {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -124,8 +194,11 @@ footer {
 }
 
 .lien_prochainement {
+    color: #FFEB3B;
+    text-decoration: none;
+    font-family: sans-serif;
     width: 20%;
-    background-color: #80CBC4;
+    background-color: #009688;
     font-size: 2em;
     border-radius: 10px;
     padding: 0.3em 1.5em 0.3em 1.5em;
