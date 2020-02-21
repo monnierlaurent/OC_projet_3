@@ -126,7 +126,7 @@ h1 {
 
 .degrader_menu_3 {
     font-family: "DancingScript";
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 0.75em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -147,7 +147,7 @@ h1 {
 
 .degrader_menu_4 {
     font-family: "Caveat";
-    font-size: 2.5em;
+    font-size: 3.5em;
     margin-bottom: 0.75em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -155,20 +155,21 @@ h1 {
 }
 
 .fa-music {
-    font-size: 2.5em;
+    font-size: 5em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(left, #f44336, #FFAB91);
 }
 
 .flex_lien_menu {
-    padding: 4em 4em 4em 4em;
+    padding: 4em 2em 0 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .flex_lien_prochainement {
+    padding-top: 4em;
     display: flex;
     justify-content: center;
 }
