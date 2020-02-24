@@ -204,3 +204,44 @@ footer {
     border-radius: 10px;
     padding: 0.3em 1.5em 0.3em 1.5em;
 }
+
+.titre_menu_1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: "RobotoSlab";
+    font-family: sans-serif;
+}
+
+.menu_1_h2_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_menu_1 {
+    margin: auto;
+    width: 80%;
+    background-color: #ffcdd2;
+    font-family: "DancingScript";
+    color: #3E2723;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_menu_1_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_1_fin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seize_icon_fin {
+    font-size: 2em;
+    padding-right: 0.3em;
+}
