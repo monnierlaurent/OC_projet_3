@@ -24,6 +24,31 @@
     src: url(/ressources/fonts/RobotoSlab-Regular.ttf);
 }
 
+html {
+    --noir: #212121;
+    /*color material design grey 900*/
+    --blanc: #FAFAFA;
+    /*color material design grey 50*/
+    --gris: #9E9E9E;
+    /*color material design grey 500*/
+    --rose_1: #ffcdd2;
+    /*color material design red 100*/
+    --rose_2: #ffebee;
+    /*color material design red 50*/
+    --vert_1: #009688;
+    /*color material design teil 500*/
+    --vert_2: #388E3C;
+    /*color material design green 700*/
+    --jaune_1: #FFEB3B;
+    /*color material design yellow 500*/
+    --marron-1: #3E2723;
+    /*color material design brown 00*/
+    --orange_1: #f44336;
+    /*color material design red 500*/
+    --bleu_1: #90CAF9;
+    /*color material design blue 200*/
+}
+
 body {
     width: 60%;
     background-color: black;
@@ -228,6 +253,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3em 0 2.5em 0;
 }
 
 .container_menu_1_1 {
@@ -235,13 +261,28 @@ footer {
     flex-direction: row;
 }
 
-.menu_1_fin {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .seize_icon_fin {
     font-size: 2em;
     padding-right: 0.3em;
+}
+
+.icons_1 {
+    font-size: 3em;
+}
+
+.align_prix_p1 {
+    padding-left: 3em;
+}
+
+.align_prix_p2 {
+    padding-left: 4em;
+}
+
+.align_p3 {
+    padding-right: 3em;
+}
+
+.menu_1_fin {
+    display: flex;
+    flex-direction: row;
 }
