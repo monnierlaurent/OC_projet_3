@@ -29,6 +29,8 @@ html {
     /*color material design grey 900*/
     --blanc: #FAFAFA;
     /*color material design grey 50*/
+    --blanc_2: #ECEFF1;
+    /*color material design blue grey 50*/
     --gris: #9E9E9E;
     /*color material design grey 500*/
     --rose_1: #ffcdd2;
@@ -47,6 +49,8 @@ html {
     /*color material design red 500*/
     --bleu_1: #90CAF9;
     /*color material design blue 200*/
+    --violet_1: #D500F9;
+    /*color material design purple A400*/
 }
 
 body {
@@ -68,13 +72,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #009688;
-    /*color material design teil 500*/
+    background-color: var(--vert_1);
 }
 
 h1 {
-    color: #FFEB3B;
-    /*color material design yellow 500*/
+    color: var(--jaune_1);
     font-size: 4em;
     font-family: sans-serif;
     letter-spacing: -0.10em;
@@ -90,7 +92,7 @@ h1 {
 .seize_lien_menu {
     width: 45%;
     height: 40em;
-    box-shadow: 0 0 1.5em #9E9E9E;
+    box-shadow: 0 0 1.5em var(--gris);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,12 +100,23 @@ h1 {
 }
 
 .color_menu_1 {
-    background-color: #ffcdd2;
-    /*color material design red 100*/
+    background-color: var(--rose_1);
+}
+
+.color_menu_2 {
+    background-color: var(--rose_2);
+}
+
+.color_menu_3 {
+    background-color: var(--blanc_2);
+}
+
+.color_menu_4 {
+    background-color: var(--blanc);
 }
 
 .seize_texte_1 {
-    color: #3E2723;
+    color: var(--marron-1);
     text-decoration: none;
     font-size: 4em;
     font-family: "Caveat";
@@ -116,13 +129,8 @@ h1 {
     font-size: 2.5em;
 }
 
-.color_menu_2 {
-    background-color: #ffebee;
-    /*color material design red 50*/
-}
-
 .seize_texte_2 {
-    color: #f44336;
+    color: var(--orange_1);
     text-decoration: none;
     font-size: 4em;
     font-family: "RobotoSlab";
@@ -137,13 +145,8 @@ h1 {
     background-image: -webkit-linear-gradient(left, #f44336, #673AB7);
 }
 
-.color_menu_3 {
-    background-color: #ECEFF1;
-    /*color material design blue grey 50*/
-}
-
 .seize_texte_3 {
-    color: #90CAF9;
+    color: var(--bleu_1);
     text-decoration: none;
     font-size: 4em;
     font-family: "Caveat";
@@ -158,13 +161,8 @@ h1 {
     background-image: -webkit-linear-gradient(left, #1A237E, #90CAF9);
 }
 
-.color_menu_4 {
-    background-color: #FAFAFA;
-    /*color material design grey 50*/
-}
-
 .seize_texte_4 {
-    color: #388E3C;
+    color: var(--vert_2);
     text-decoration: none;
     font-size: 4em;
     font-family: "Caveat";
@@ -193,6 +191,17 @@ h1 {
     justify-content: space-around;
 }
 
+.lien_prochainement {
+    color: var(--jaune_1);
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 20%;
+    background-color: var(--vert_1);
+    font-size: 2em;
+    border-radius: 10px;
+    padding: 0.3em 1.5em 0.3em 1.5em;
+}
+
 .flex_lien_prochainement {
     padding-top: 4em;
     display: flex;
@@ -209,80 +218,11 @@ footer {
     justify-content: space-around;
     align-items: center;
     font-size: 2em;
-    background-color: #009688;
-    /*color material design teil 500*/
+    background-color: var(--vert_1);
 }
 
 .lien_footer {
     text-decoration: none;
-    color: #FFEB3B;
+    color: var(--jaune_1);
     font-family: sans-serif;
-}
-
-.lien_prochainement {
-    color: #FFEB3B;
-    text-decoration: none;
-    font-family: sans-serif;
-    width: 20%;
-    background-color: #009688;
-    font-size: 2em;
-    border-radius: 10px;
-    padding: 0.3em 1.5em 0.3em 1.5em;
-}
-
-.titre_menu_1 {
-    text-align: center;
-    font-size: 2em;
-    font-family: "RobotoSlab";
-    font-family: sans-serif;
-}
-
-.menu_1_h2_center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container_menu_1 {
-    margin: auto;
-    width: 80%;
-    background-color: #ffcdd2;
-    font-family: "DancingScript";
-    color: #3E2723;
-    font-size: 1.5em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3em 0 2.5em 0;
-}
-
-.container_menu_1_1 {
-    display: flex;
-    flex-direction: row;
-}
-
-.seize_icon_fin {
-    font-size: 2em;
-    padding-right: 0.3em;
-}
-
-.icons_1 {
-    font-size: 3em;
-}
-
-.align_prix_p1 {
-    padding-left: 3em;
-}
-
-.align_prix_p2 {
-    padding-left: 4em;
-}
-
-.align_p3 {
-    padding-right: 3em;
-}
-
-.menu_1_fin {
-    display: flex;
-    flex-direction: row;
 }
