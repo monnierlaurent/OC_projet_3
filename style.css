@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face {
+    font-family: "Roboto";
+    src: url(/ressources/fonts/Roboto-Regular.ttf);
+}
+
 @font-face {
     font-family: "Satisfy";
     src: url(ressources/fonts/Satisfy-Regular.ttf);
@@ -25,6 +29,7 @@
 }
 
 html {
+    font-family: "Roboto";
     --noir: #212121;
     /*color material design grey 900*/
     --blanc: #FAFAFA;
@@ -43,14 +48,25 @@ html {
     /*color material design green 700*/
     --jaune_1: #FFEB3B;
     /*color material design yellow 500*/
-    --marron-1: #3E2723;
+    --marron_1: #3E2723;
     /*color material design brown 00*/
-    --orange_1: #f44336;
-    /*color material design red 500*/
     --bleu_1: #90CAF9;
     /*color material design blue 200*/
-    --violet_1: #D500F9;
-    /*color material design purple A400*/
+    /*----couleur pour degradé----*/
+    --orange_1: #EF6C00;
+    /*color material design orange 800*/
+    --violet_1: #9C27B0;
+    /*color material design purple 500*/
+    --violet_2: #4A148C;
+    /*color material design purple 900*/
+    --bleu_2: #1A237E;
+    /*color material design indigo 900*/
+    --bleu_3: #2196F3;
+    /*color material design blue 500*/
+    --vert_3: #2E7D32;
+    /*color material design green 800*/
+    --jaune_2: #C6FF00;
+    /*color material design lime A400*/
 }
 
 
@@ -71,6 +87,9 @@ html {
 .color_menu_4 {
     background-color: var(--blanc);
 }
+
+
+/*------élements du body-------*/
 
 body {
     width: 60%;
@@ -143,12 +162,12 @@ h1 {
 }
 
 .degrader_menu_2 {
-    font-family: "Merienda";
-    font-size: 2em;
+    font-family: "Satisfy";
+    font-size: 2.5em;
     margin-bottom: 0.75em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, #f44336, #673AB7);
+    background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
 }
 
 .seize_texte_3 {
@@ -164,7 +183,7 @@ h1 {
     margin-bottom: 0.75em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, #1A237E, #90CAF9);
+    background-image: -webkit-linear-gradient(left, var(--bleu_2), var(--bleu_3));
 }
 
 .seize_texte_4 {
@@ -180,7 +199,7 @@ h1 {
     margin-bottom: 0.75em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, #388E3C, #76FF03);
+    background-image: -webkit-linear-gradient(left, var(--vert_3), var(--jaune_2));
 }
 
 .fa-music {
@@ -249,12 +268,119 @@ footer {
     justify-content: space-between;
 }
 
-.padding_container_menus {
-    padding: 2em 7em 2em 7em;
-}
-
 .withd_container_menus {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 3em 0 3em 0;
+}
+
+
+/*------menu 1------*/
+
+.color_font_texte_menu_1 {
+    font-family: "DancingScript";
+    color: var(--marron_1);
+}
+
+.font_seize_titre_p1 {
+    font-size: 4em;
+}
+
+.flex_icon_bas_p1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.font_seize_p1 {
+    font-size: 2em;
+    padding: 0 2.5em 0 2.5em;
+}
+
+.seize_icon_bas_p1 {
+    padding-right: 0.5em;
+    font-size: 3em;
+}
+
+.seize_font_bas_p1 {
+    font-size: 3em;
+}
+
+
+/*------menu 2------*/
+
+.color_font_texte_menu_2_titre {
+    font-family: "Satisfy";
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
+}
+
+.color_font_texte_menu_2_p1 {
+    font-family: "Satisfy";
+    color: var(--orange_1);
+}
+
+.color_font_texte_menu_2_p2 {
+    font-family: "Satisfy";
+    color: var(--violet_1);
+}
+
+.color_font_texte_menu_2_p3 {
+    font-family: "Satisfy";
+    color: var(--violet_2);
+}
+
+.font_seize_p2 {
+    font-size: 1.7em;
+    padding: 0 4em 2em 4em;
+}
+
+.font_seize_titre_p2 {
+    font-size: 4em;
+}
+
+
+/*------menu 3------*/
+
+.color_texte_menu_3_titre {
+    font-size: 5em;
+    padding-bottom: 0.5em;
+    font-weight: normal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, var(--bleu_2), var(--bleu_3));
+}
+
+.font_seize_p3 {
+    font-size: 1.4em;
+    padding: 0 9em 2em 9em;
+}
+
+.font_texte_menu_3_p1 {
+    font-family: "Satisfy";
+}
+
+.titre_black_none {
+    font-weight: normal;
+}
+
+
+/*------menu 4------*/
+
+.color_texte_menu_4_titre {
+    font-size: 8em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, var(--vert_3), var(--jaune_2));
+}
+
+.font_p4 {
+    font-family: "Caveat";
+}
+
+.font_seize_p4 {
+    font-size: 2em;
+    padding: 0 3em 0 3em;
 }
