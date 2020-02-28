@@ -1,386 +1,430 @@
-@font-face {
-    font-family: "Roboto";
-    src: url(/ressources/fonts/Roboto-Regular.ttf);
+    @font-face {
+        font-family: "Roboto";
+        src: url(/ressources/fonts/Roboto-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: "Satisfy";
+        src: url(ressources/fonts/Satisfy-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: "Merienda";
+        src: url(/ressources/fonts/Merienda-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: "DancingScript";
+        src: url(ressources/fonts/DancingScript-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: "Caveat";
+        src: url(ressources/fonts/Caveat-Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: "RobotoSlab";
+        src: url(/ressources/fonts/RobotoSlab-Regular.ttf);
+    }
+    
+    html {
+        font-family: "Roboto";
+        --noir: #212121;
+        /*color material design grey 900*/
+        --blanc: #FAFAFA;
+        /*color material design grey 50*/
+        --blanc_2: #ECEFF1;
+        /*color material design blue grey 50*/
+        --gris: #9E9E9E;
+        /*color material design grey 500*/
+        --rose_1: #ffcdd2;
+        /*color material design red 100*/
+        --rose_2: #ffebee;
+        /*color material design red 50*/
+        --vert_1: #009688;
+        /*color material design teil 500*/
+        --vert_2: #388E3C;
+        /*color material design green 700*/
+        --jaune_1: #FFEB3B;
+        /*color material design yellow 500*/
+        --marron_1: #3E2723;
+        /*color material design brown 00*/
+        --bleu_1: #90CAF9;
+        /*color material design blue 200*/
+        /*----couleur pour degradé----*/
+        --orange_1: #EF6C00;
+        /*color material design orange 800*/
+        --violet_1: #9C27B0;
+        /*color material design purple 500*/
+        --violet_2: #4A148C;
+        /*color material design purple 900*/
+        --bleu_2: #1A237E;
+        /*color material design indigo 900*/
+        --bleu_3: #2196F3;
+        /*color material design blue 500*/
+        --vert_3: #2E7D32;
+        /*color material design green 800*/
+        --jaune_2: #C6FF00;
+        /*color material design lime A400*/
+    }
+    /*--------couleurs de fond des menu index.html et menu1,2,3,4.html*/
+    
+    .color_menu_1 {
+        background-color: var(--rose_1);
+    }
+    
+    .color_menu_2 {
+        background-color: var(--rose_2);
+    }
+    
+    .color_menu_3 {
+        background-color: var(--blanc_2);
+    }
+    
+    .color_menu_4 {
+        background-color: var(--blanc);
+    }
+    /*------élements du body-------*/
+    
+    body {
+        width: 60%;
+        background-color: black;
+        margin: auto;
+    }
+    /*-----index.html-----*/
+    
+    .container_principal {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .titre_principal {
+        width: 100%;
+        height: 8em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--vert_1);
+    }
+    
+    h1 {
+        color: var(--jaune_1);
+        font-size: 4em;
+        font-family: sans-serif;
+        letter-spacing: -0.10em;
+        text-align: center;
+    }
+    
+    .container_menu {
+        width: 100%;
+        background-color: #fff;
+        padding-bottom: 7.5em;
+    }
+    
+    .seize_lien_menu {
+        width: 45%;
+        height: 40em;
+        box-shadow: 0 0 1.5em var(--gris);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .seize_texte_1 {
+        color: var(--marron-1);
+        text-decoration: none;
+        font-size: 4em;
+        font-family: "Caveat";
+    }
+    
+    .degrader_menu_1 {
+        color: #3E2723;
+        font-family: "Satisfy";
+        margin-bottom: 0.75em;
+        font-size: 2.5em;
+    }
+    
+    .seize_texte_2 {
+        color: var(--orange_1);
+        text-decoration: none;
+        font-size: 4em;
+        font-family: "RobotoSlab";
+    }
+    
+    .degrader_menu_2 {
+        font-family: "Satisfy";
+        font-size: 2.5em;
+        margin-bottom: 0.75em;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
+    }
+    
+    .seize_texte_3 {
+        color: var(--bleu_1);
+        text-decoration: none;
+        font-size: 4em;
+        font-family: "Caveat";
+    }
+    
+    .degrader_menu_3 {
+        font-family: "DancingScript";
+        font-size: 3em;
+        margin-bottom: 0.75em;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left, var(--bleu_2), var(--bleu_3));
+    }
+    
+    .seize_texte_4 {
+        color: var(--vert_2);
+        text-decoration: none;
+        font-size: 4em;
+        font-family: "Caveat";
+    }
+    
+    .degrader_menu_4 {
+        font-family: "Caveat";
+        font-size: 3.5em;
+        margin-bottom: 0.75em;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left, var(--vert_3), var(--jaune_2));
+    }
+    
+    .fa-music {
+        font-size: 5em;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left, #f44336, #FFAB91);
+    }
+    
+    .flex_lien_menu {
+        padding: 4em 2em 0 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .lien_prochainement {
+        color: var(--jaune_1);
+        text-decoration: none;
+        font-family: sans-serif;
+        width: 20%;
+        background-color: var(--vert_1);
+        font-size: 2em;
+        border-radius: 10px;
+        padding: 0.3em 1.5em 0.3em 1.5em;
+    }
+    
+    .flex_lien_prochainement {
+        padding-top: 4em;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 60%;
+        height: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2em;
+        background-color: var(--vert_1);
+    }
+    
+    .lien_footer {
+        text-decoration: none;
+        color: var(--jaune_1);
+        font-family: sans-serif;
+    }
+    /*-------partie commune des 4 menu.html-------*/
+    /*-----placement de titres et des paragraphes-----*/
+    
+    .center_h2 {
+        text-align: center;
+    }
+    
+    .container_pragraphe {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .withd_container_menus {
+        width: 80%;
+        margin: auto;
+        padding: 3em 0 3em 0;
+    }
+    /*------menu 1------*/
+    
+    .color_font_texte_menu_1 {
+        font-family: "DancingScript";
+        color: var(--marron_1);
+    }
+    
+    .font_seize_titre_p1 {
+        font-size: 4em;
+    }
+    
+    .flex_icon_bas_p1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .font_seize_p1 {
+        font-size: 2em;
+        padding: 0 2.5em 0 2.5em;
+    }
+    
+    .seize_icon_bas_p1 {
+        padding-right: 0.5em;
+        font-size: 3em;
+    }
+    
+    .seize_font_bas_p1 {
+        font-size: 3em;
+    }
+    /*h2:before,
+h2:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 10rem;
+    height: 2px;
+    background: red;
 }
 
-@font-face {
-    font-family: "Satisfy";
-    src: url(ressources/fonts/Satisfy-Regular.ttf);
+h2:before {
+    margin-right: .3em
 }
 
-@font-face {
-    font-family: "Merienda";
-    src: url(/ressources/fonts/Merienda-Regular.ttf);
-}
-
-@font-face {
-    font-family: "DancingScript";
-    src: url(ressources/fonts/DancingScript-Regular.ttf);
-}
-
-@font-face {
-    font-family: "Caveat";
-    src: url(ressources/fonts/Caveat-Regular.ttf);
-}
-
-@font-face {
-    font-family: "RobotoSlab";
-    src: url(/ressources/fonts/RobotoSlab-Regular.ttf);
-}
-
-html {
-    font-family: "Roboto";
-    --noir: #212121;
-    /*color material design grey 900*/
-    --blanc: #FAFAFA;
-    /*color material design grey 50*/
-    --blanc_2: #ECEFF1;
-    /*color material design blue grey 50*/
-    --gris: #9E9E9E;
-    /*color material design grey 500*/
-    --rose_1: #ffcdd2;
-    /*color material design red 100*/
-    --rose_2: #ffebee;
-    /*color material design red 50*/
-    --vert_1: #009688;
-    /*color material design teil 500*/
-    --vert_2: #388E3C;
-    /*color material design green 700*/
-    --jaune_1: #FFEB3B;
-    /*color material design yellow 500*/
-    --marron_1: #3E2723;
-    /*color material design brown 00*/
-    --bleu_1: #90CAF9;
-    /*color material design blue 200*/
-    /*----couleur pour degradé----*/
-    --orange_1: #EF6C00;
-    /*color material design orange 800*/
-    --violet_1: #9C27B0;
-    /*color material design purple 500*/
-    --violet_2: #4A148C;
-    /*color material design purple 900*/
-    --bleu_2: #1A237E;
-    /*color material design indigo 900*/
-    --bleu_3: #2196F3;
-    /*color material design blue 500*/
-    --vert_3: #2E7D32;
-    /*color material design green 800*/
-    --jaune_2: #C6FF00;
-    /*color material design lime A400*/
-}
-
-
-/*--------couleurs de fond des menu index.html et menu1,2,3,4.html*/
-
-.color_menu_1 {
-    background-color: var(--rose_1);
-}
-
-.color_menu_2 {
-    background-color: var(--rose_2);
-}
-
-.color_menu_3 {
-    background-color: var(--blanc_2);
-}
-
-.color_menu_4 {
-    background-color: var(--blanc);
-}
-
-
-/*------élements du body-------*/
-
-body {
-    width: 60%;
-    background-color: black;
-    margin: auto;
-}
-
-
-/*-----index.html-----*/
-
-.container_principal {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 0;
-}
-
-.titre_principal {
-    width: 100%;
-    height: 8em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--vert_1);
-}
-
-h1 {
-    color: var(--jaune_1);
-    font-size: 4em;
-    font-family: sans-serif;
-    letter-spacing: -0.10em;
-    text-align: center;
-}
-
-.container_menu {
-    width: 100%;
-    background-color: #fff;
-    padding-bottom: 7.5em;
-}
-
-.seize_lien_menu {
-    width: 45%;
-    height: 40em;
-    box-shadow: 0 0 1.5em var(--gris);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.seize_texte_1 {
-    color: var(--marron-1);
-    text-decoration: none;
-    font-size: 4em;
-    font-family: "Caveat";
-}
-
-.degrader_menu_1 {
-    color: #3E2723;
-    font-family: "Satisfy";
-    margin-bottom: 0.75em;
-    font-size: 2.5em;
-}
-
-.seize_texte_2 {
-    color: var(--orange_1);
-    text-decoration: none;
-    font-size: 4em;
-    font-family: "RobotoSlab";
-}
-
-.degrader_menu_2 {
-    font-family: "Satisfy";
-    font-size: 2.5em;
-    margin-bottom: 0.75em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
-}
-
-.seize_texte_3 {
-    color: var(--bleu_1);
-    text-decoration: none;
-    font-size: 4em;
-    font-family: "Caveat";
-}
-
-.degrader_menu_3 {
-    font-family: "DancingScript";
-    font-size: 3em;
-    margin-bottom: 0.75em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--bleu_2), var(--bleu_3));
-}
-
-.seize_texte_4 {
-    color: var(--vert_2);
-    text-decoration: none;
-    font-size: 4em;
-    font-family: "Caveat";
-}
-
-.degrader_menu_4 {
-    font-family: "Caveat";
-    font-size: 3.5em;
-    margin-bottom: 0.75em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--vert_3), var(--jaune_2));
-}
-
-.fa-music {
-    font-size: 5em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, #f44336, #FFAB91);
-}
-
-.flex_lien_menu {
-    padding: 4em 2em 0 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.lien_prochainement {
-    color: var(--jaune_1);
-    text-decoration: none;
-    font-family: sans-serif;
-    width: 20%;
-    background-color: var(--vert_1);
-    font-size: 2em;
-    border-radius: 10px;
-    padding: 0.3em 1.5em 0.3em 1.5em;
-}
-
-.flex_lien_prochainement {
-    padding-top: 4em;
-    display: flex;
-    justify-content: center;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 60%;
-    height: 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 2em;
-    background-color: var(--vert_1);
-}
-
-.lien_footer {
-    text-decoration: none;
-    color: var(--jaune_1);
-    font-family: sans-serif;
-}
-
-
-/*-------partie commune des 4 menu.html-------*/
-
-
-/*-----placement de titres et des paragraphes-----*/
-
-.center_h2 {
-    text-align: center;
-}
-
-.container_pragraphe {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.withd_container_menus {
-    width: 80%;
-    margin: auto;
-    padding: 3em 0 3em 0;
-}
-
-
-/*------menu 1------*/
-
-.color_font_texte_menu_1 {
-    font-family: "DancingScript";
-    color: var(--marron_1);
-}
-
-.font_seize_titre_p1 {
-    font-size: 4em;
-}
-
-.flex_icon_bas_p1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.font_seize_p1 {
-    font-size: 2em;
-    padding: 0 2.5em 0 2.5em;
-}
-
-.seize_icon_bas_p1 {
-    padding-right: 0.5em;
-    font-size: 3em;
-}
-
-.seize_font_bas_p1 {
-    font-size: 3em;
-}
-
-
-/*------menu 2------*/
-
-.color_font_texte_menu_2_titre {
-    font-family: "Satisfy";
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
-}
-
-.color_font_texte_menu_2_p1 {
-    font-family: "Satisfy";
-    color: var(--orange_1);
-}
-
-.color_font_texte_menu_2_p2 {
-    font-family: "Satisfy";
-    color: var(--violet_1);
-}
-
-.color_font_texte_menu_2_p3 {
-    font-family: "Satisfy";
-    color: var(--violet_2);
-}
-
-.font_seize_p2 {
-    font-size: 1.7em;
-    padding: 0 4em 2em 4em;
-}
-
-.font_seize_titre_p2 {
-    font-size: 4em;
-}
-
-
-/*------menu 3------*/
-
-.color_texte_menu_3_titre {
-    font-size: 5em;
-    padding-bottom: 0.5em;
-    font-weight: normal;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--bleu_2), var(--bleu_3));
-}
-
-.font_seize_p3 {
-    font-size: 1.4em;
-    padding: 0 9em 2em 9em;
-}
-
-.font_texte_menu_3_p1 {
-    font-family: "Satisfy";
-}
-
-.titre_black_none {
-    font-weight: normal;
-}
-
-
-/*------menu 4------*/
-
-.color_texte_menu_4_titre {
-    font-size: 8em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--vert_3), var(--jaune_2));
-}
-
-.font_p4 {
-    font-family: "Caveat";
-}
-
-.font_seize_p4 {
-    font-size: 2em;
-    padding: 0 3em 0 3em;
-}
+h2:after {
+    margin-left: .3em
+}*/
+    /*------menu 2------*/
+    
+    .color_font_texte_menu_2_titre {
+        font-family: "Satisfy";
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
+    }
+    
+    .color_font_texte_menu_2_p1 {
+        font-family: "Satisfy";
+        color: var(--orange_1);
+    }
+    
+    .color_font_texte_menu_2_p2 {
+        font-family: "Satisfy";
+        color: var(--violet_1);
+    }
+    
+    .color_font_texte_menu_2_p3 {
+        font-family: "Satisfy";
+        color: var(--violet_2);
+    }
+    
+    .font_seize_p2 {
+        font-size: 1.7em;
+        padding: 0 4em 2em 4em;
+    }
+    
+    .font_seize_titre_p2 {
+        font-size: 4em;
+    }
+    /*------lingnes des titres menu 2------*/
+    
+    #triangle-1 {
+        width: 0;
+        height: 0;
+        border-left: 170px solid transparent;
+        border-right: 40px solid transparent;
+        border-bottom: 7px solid;
+    }
+    
+    #triangle-2 {
+        width: 0;
+        height: 0;
+        border-left: 170px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 7px solid;
+    }
+    
+    #triangle-3 {
+        width: 0;
+        height: 0;
+        border-left: 40px solid transparent;
+        border-right: 170px solid transparent;
+        border-bottom: 7px solid;
+    }
+    
+    #triangle-4 {
+        width: 0;
+        height: 0;
+        border-left: 40px solid transparent;
+        border-right: 170px solid transparent;
+        border-top: 7px solid;
+    }
+    
+    .flex_lignes_m2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .seize_h2_line {
+        padding: 0 0.55em 0 0.55em;
+        font-size: 1.2em;
+    }
+    /*------menu 3------*/
+    
+    .color_texte_menu_3_titre {
+        font-size: 5em;
+        padding-bottom: 0.5em;
+        font-weight: normal;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left, var(--bleu_2), var(--bleu_3));
+    }
+    
+    .font_seize_p3 {
+        font-size: 1.4em;
+        padding: 0 9em 2em 9em;
+    }
+    
+    .font_texte_menu_3_p1 {
+        font-family: "Satisfy";
+    }
+    
+    .titre_black_none {
+        font-weight: normal;
+    }
+    /*------menu 4------*/
+    
+    .color_texte_menu_4_titre {
+        font-size: 8em;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left, var(--vert_3), var(--jaune_2));
+    }
+    
+    .font_p4 {
+        font-family: "Caveat";
+    }
+    
+    .font_seize_p4 {
+        font-size: 2em;
+        padding: 0 3em 0 3em;
+    }
