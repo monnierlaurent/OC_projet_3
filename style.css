@@ -87,19 +87,16 @@
     }
     /*------élements du body-------*/
     
+    * {
+        margin: 0;
+    }
+    
     body {
         width: 60%;
         background-color: black;
         margin: auto;
     }
     /*-----index.html-----*/
-    
-    .container_principal {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 0;
-    }
     
     .titre_principal {
         width: 100%;
@@ -358,33 +355,33 @@
     #triangle-1 {
         width: 0;
         height: 0;
-        border-left: 250px solid transparent;
-        border-right: 40px solid transparent;
-        border-bottom: 7px solid;
+        border-left: 9em solid transparent;
+        border-right: 2em solid transparent;
+        border-bottom: 0.25em solid;
     }
     
     #triangle-2 {
         width: 0;
         height: 0;
-        border-left: 250px solid transparent;
-        border-right: 40px solid transparent;
-        border-top: 7px solid;
+        border-left: 9em solid transparent;
+        border-right: 2em solid transparent;
+        border-top: 0.25em solid;
     }
     
     #triangle-3 {
         width: 0;
         height: 0;
-        border-left: 40px solid transparent;
-        border-right: 250px solid transparent;
-        border-bottom: 7px solid;
+        border-left: 2em solid transparent;
+        border-right: 9em solid transparent;
+        border-bottom: 0.25em solid;
     }
     
     #triangle-4 {
         width: 0;
         height: 0;
-        border-left: 40px solid transparent;
-        border-right: 250px solid transparent;
-        border-top: 7px solid;
+        border-left: 2em solid transparent;
+        border-right: 9em solid transparent;
+        border-top: 0.25em solid;
     }
     
     .flex_lignes_m2 {
