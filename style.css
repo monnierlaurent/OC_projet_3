@@ -294,23 +294,30 @@
     .seize_font_bas_p1 {
         font-size: 3em;
     }
-    /*h2:before,
-h2:after {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    width: 10rem;
-    height: 2px;
-    background: red;
-}
-
-h2:before {
-    margin-right: .3em
-}
-
-h2:after {
-    margin-left: .3em
-}*/
+    
+    .flex_ligne_m1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ligne_m1 {
+        width: 30%;
+        border-bottom: solid 0.2em var(--marron_1);
+    }
+    
+    .padding_h2_m1 {
+        padding: 0 2em 0 2em;
+    }
+    
+    .padding_h2_2_m1 {
+        padding: 0 1em 0 1em;
+    }
+    
+    .padding_h2_3_m1 {
+        padding: 0 0.4em 0 0.4em;
+    }
     /*------menu 2------*/
     
     .color_font_texte_menu_2_titre {
