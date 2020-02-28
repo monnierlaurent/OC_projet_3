@@ -110,6 +110,10 @@
         background-color: var(--vert_1);
     }
     
+    .style_a {
+        text-decoration: none;
+    }
+    
     h1 {
         color: var(--jaune_1);
         font-size: 4em;
