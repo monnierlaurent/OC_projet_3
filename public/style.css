@@ -1,71 +1,83 @@
     @font-face {
         font-family: "Roboto";
-        src: url(/ressources/fonts/Roboto-Regular.ttf);
+        src: url(/public/ressources/fonts/Roboto-Regular.ttf);
+        /*police générale*/
     }
     
     @font-face {
-        font-family: "Satisfy";
-        src: url(ressources/fonts/Satisfy-Regular.ttf);
+        font-family: "Devonshire";
+        src: url(/public/ressources/fonts/Devonshire-Regular.ttf);
+        /*police menu 1*/
     }
     
     @font-face {
-        font-family: "Merienda";
-        src: url(/ressources/fonts/Merienda-Regular.ttf);
+        font-family: "CroissantOne";
+        src: url(/public/ressources/fonts/CroissantOne-Regular.ttf);
+        /*police menu 2*/
+    }
+    
+    @font-face {
+        font-family: "RobotoSlab";
+        src: url(/public/ressources/fonts/RobotoSlab-Regular.ttf);
+        /*police menu 2 "menu"*/
     }
     
     @font-face {
         font-family: "DancingScript";
         src: url(ressources/fonts/DancingScript-Regular.ttf);
+        /*police menu 3*/
+    }
+    
+    @font-face {
+        font-family: "KaushanScript";
+        src: url(/public/ressources/fonts/KaushanScript-Regular.ttf);
+        /*police menu 4*/
     }
     
     @font-face {
         font-family: "Caveat";
-        src: url(ressources/fonts/Caveat-Regular.ttf);
-    }
-    
-    @font-face {
-        font-family: "RobotoSlab";
-        src: url(/ressources/fonts/RobotoSlab-Regular.ttf);
+        src: url(/public/ressources/fonts/Caveat-Regular.ttf);
+        /*police pargraphes menu 1.3.4*/
     }
     
     html {
         font-family: "Roboto";
         --noir: #212121;
         /*color material design grey 900*/
-        --blanc: #FAFAFA;
+        --blanc: #FDFFFD;
         /*color material design grey 50*/
-        --blanc_2: #ECEFF1;
+        --blanc_2: #F9F9F9;
         /*color material design blue grey 50*/
         --gris: #9E9E9E;
         /*color material design grey 500*/
-        --rose_1: #ffcdd2;
+        --rose_1: #FCDFDB;
         /*color material design red 100*/
-        --rose_2: #ffebee;
+        --rose_2: #FFF5FE;
         /*color material design red 50*/
-        --vert_1: #009688;
+        --vert_1: #579C87;
         /*color material design teil 500*/
         --vert_2: #388E3C;
         /*color material design green 700*/
-        --jaune_1: #FFEB3B;
+        --jaune_1: #FDCB46;
         /*color material design yellow 500*/
-        --marron_1: #3E2723;
+        --marron_1: #3D1319;
         /*color material design brown 00*/
         --bleu_1: #90CAF9;
         /*color material design blue 200*/
         /*----couleur pour degradé----*/
-        --orange_1: #EF6C00;
+        --orange_1: #E38A12;
         /*color material design orange 800*/
-        --violet_1: #9C27B0;
+        --violet_1: #B16DA1;
         /*color material design purple 500*/
-        --violet_2: #4A148C;
+        --violet_2: #8F5AFF;
         /*color material design purple 900*/
-        --bleu_2: #1A237E;
+        --bleu_2: #0023DB;
         /*color material design indigo 900*/
-        --bleu_3: #2196F3;
+        --bleu_3: #0889FB;
         /*color material design blue 500*/
-        --vert_3: #2E7D32;
+        --vert_3: #3E923A;
         /*color material design green 800*/
-        --jaune_2: #C6FF00;
+        --jaune_2: #BEFF7F;
         /*color material design lime A400*/
     }
     /*--------couleurs de fond des menu index.html et menu1,2,3,4.html*/
@@ -88,7 +100,7 @@
     /*------élements du body-------*/
     
     * {
-        margin: 0;
+        margin-top: 0;
     }
     
     body {
@@ -144,7 +156,7 @@
     
     .degrader_menu_1 {
         color: #3E2723;
-        font-family: "Satisfy";
+        font-family: "Devonshire";
         margin-bottom: 0.75em;
         font-size: 2.5em;
     }
@@ -157,7 +169,7 @@
     }
     
     .degrader_menu_2 {
-        font-family: "Satisfy";
+        font-family: "CroissantOne";
         font-size: 2.5em;
         margin-bottom: 0.75em;
         -webkit-background-clip: text;
@@ -185,11 +197,11 @@
         color: var(--vert_2);
         text-decoration: none;
         font-size: 4em;
-        font-family: "Caveat";
+        font-family: "KaushanScript";
     }
     
     .degrader_menu_4 {
-        font-family: "Caveat";
+        font-family: "KaushanScript";
         font-size: 3.5em;
         margin-bottom: 0.75em;
         -webkit-background-clip: text;
@@ -201,7 +213,7 @@
         font-size: 5em;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(left, #f44336, #FFAB91);
+        background-image: -webkit-linear-gradient(left, #F15861, #F78F6A);
     }
     
     .flex_lien_menu {
@@ -267,7 +279,7 @@
     /*------menu 1------*/
     
     .color_font_texte_menu_1 {
-        font-family: "DancingScript";
+        font-family: "Devonshire";
         color: var(--marron_1);
     }
     
@@ -283,6 +295,7 @@
     }
     
     .font_seize_p1 {
+        font-family: "Caveat";
         font-size: 2em;
         padding: 0 2.5em 0 2.5em;
     }
@@ -322,24 +335,24 @@
     /*------menu 2------*/
     
     .color_font_texte_menu_2_titre {
-        font-family: "Satisfy";
+        font-family: "CroissantOne";
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
     }
     
     .color_font_texte_menu_2_p1 {
-        font-family: "Satisfy";
+        font-family: "RobotoSlab";
         color: var(--orange_1);
     }
     
     .color_font_texte_menu_2_p2 {
-        font-family: "Satisfy";
+        font-family: "RobotoSlab";
         color: var(--violet_1);
     }
     
     .color_font_texte_menu_2_p3 {
-        font-family: "Satisfy";
+        font-family: "RobotoSlab";
         color: var(--violet_2);
     }
     
@@ -402,6 +415,7 @@
     /*------menu 3------*/
     
     .color_texte_menu_3_titre {
+        font-family: "DancingScript";
         font-size: 5em;
         padding-bottom: 0.5em;
         font-weight: normal;
@@ -415,9 +429,7 @@
         padding: 0 9em 2em 9em;
     }
     
-    .font_texte_menu_3_p1 {
-        font-family: "Satisfy";
-    }
+    .font_texte_menu_3_p1 {}
     
     .titre_black_none {
         font-weight: normal;
