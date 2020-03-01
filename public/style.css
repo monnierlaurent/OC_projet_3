@@ -451,3 +451,14 @@
         font-size: 2em;
         padding: 0 3em 0 3em;
     }
+    /*--------------mentions légales-------------*/
+    
+    .h1_mentions {
+        color: var(--jaune_1);
+        font-size: 3em;
+        padding-top: 1em;
+    }
+    
+    .padding_article {
+        padding-left: 3em;
+    }
