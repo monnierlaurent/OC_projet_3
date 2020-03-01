@@ -42,60 +42,50 @@
     
     html {
         font-family: "Roboto";
+        /*-----couleur titre principale et fond du site-----*/
         --noir: #212121;
-        /*color material design grey 900*/
-        --blanc: #FDFFFD;
-        /*color material design grey 50*/
-        --blanc_2: #F9F9F9;
-        /*color material design blue grey 50*/
-        --gris: #9E9E9E;
-        /*color material design grey 500*/
-        --rose_1: #FCDFDB;
-        /*color material design red 100*/
-        --rose_2: #FFF5FE;
-        /*color material design red 50*/
-        --vert_1: #579C87;
-        /*color material design teil 500*/
-        --vert_2: #388E3C;
-        /*color material design green 700*/
-        --jaune_1: #FDCB46;
-        /*color material design yellow 500*/
-        --marron_1: #3D1319;
-        /*color material design brown 00*/
-        --bleu_1: #90CAF9;
-        /*color material design blue 200*/
-        /*----couleur pour degradé----*/
-        --orange_1: #E38A12;
-        /*color material design orange 800*/
-        --violet_1: #B16DA1;
-        /*color material design purple 500*/
-        --violet_2: #8F5AFF;
-        /*color material design purple 900*/
-        --bleu_2: #0023DB;
-        /*color material design indigo 900*/
-        --bleu_3: #0889FB;
-        /*color material design blue 500*/
-        --vert_3: #3E923A;
-        /*color material design green 800*/
-        --jaune_2: #BEFF7F;
-        /*color material design lime A400*/
+        --blanc: #FAFAFA;
+        --vert_titre: #579C87;
+        --jaune_titre: #FDCB46;
+        --ombres: #BDBDBD;
+        /*------couleurs menu 1------*/
+        --fond_menu_1: #FCDFDB;
+        --font_menu_1: #3D1319;
+        --icon_menu_1_1: #F05060;
+        --icon_menu_1_2: #F6916A;
+        /*------couleurs menu 2------*/
+        --fond_menu_2: #FFF5FE;
+        --font_menu_2_1: #C77412;
+        --font_menu_2_2: #A56799;
+        --font_menu_2_3: #6E4CCC;
+        /*------couleurs menu 3------*/
+        --fond_menu_3: #F9F9F9;
+        --font_menu_0: #0887FB;
+        --font_menu_3_1: #0023DB;
+        --font_menu_3_2: #0670F3;
+        --font_menu_3_3: #229DF9;
+        /*------couleurs menu 4------*/
+        --fond_menu_4: #FDFFFD;
+        --font_menu_4_0: #72BF56;
+        --font_menu_4_1: #3E923A;
+        --font_menu_4_2: #BEFF7F;
     }
     /*--------couleurs de fond des menu index.html et menu1,2,3,4.html*/
     
     .color_menu_1 {
-        background-color: var(--rose_1);
+        background-color: var(--fond_menu_1);
     }
     
     .color_menu_2 {
-        background-color: var(--rose_2);
+        background-color: var(--fond_menu_2);
     }
     
     .color_menu_3 {
-        background-color: var(--blanc_2);
+        background-color: var(--fond_menu_3);
     }
     
     .color_menu_4 {
-        background-color: var(--blanc);
+        background-color: var(--fond_menu_4);
     }
     /*------élements du body-------*/
     
@@ -105,7 +95,7 @@
     
     body {
         width: 60%;
-        background-color: black;
+        background-color: var(--noir);
         margin: auto;
     }
     /*-----index.html-----*/
@@ -116,7 +106,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: var(--vert_1);
+        background-color: var(--vert_titre);
     }
     
     .style_a {
@@ -124,7 +114,7 @@
     }
     
     h1 {
-        color: var(--jaune_1);
+        color: var(--jaune_titre);
         font-size: 4em;
         font-family: sans-serif;
         letter-spacing: -0.10em;
@@ -133,14 +123,14 @@
     
     .container_menu {
         width: 100%;
-        background-color: #fff;
+        background-color: var(--blanc);
         padding-bottom: 7.5em;
     }
     
     .seize_lien_menu {
         width: 45%;
         height: 40em;
-        box-shadow: 0 0 1.5em var(--gris);
+        box-shadow: 0 0 1.5em var(--ombres);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -148,21 +138,21 @@
     }
     
     .seize_texte_1 {
-        color: var(--marron_1);
+        color: var(--font_menu_1);
         text-decoration: none;
         font-size: 4em;
         font-family: "Caveat";
     }
     
     .degrader_menu_1 {
-        color: #3E2723;
+        color: var(--font_menu_1);
         font-family: "Devonshire";
         margin-bottom: 0.75em;
         font-size: 2.5em;
     }
     
     .seize_texte_2 {
-        color: var(--orange_1);
+        color: var(--font_menu_2_1);
         text-decoration: none;
         font-size: 4em;
         font-family: "RobotoSlab";
@@ -174,11 +164,11 @@
         margin-bottom: 0.75em;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
+        background-image: -webkit-linear-gradient(left, var(--font_menu_2_1), var(--font_menu_2_2), var(--font_menu_2_3));
     }
     
     .seize_texte_3 {
-        color: var(--bleu_1);
+        color: var(--font_menu_0);
         text-decoration: none;
         font-size: 4em;
         font-family: "Caveat";
@@ -190,11 +180,11 @@
         margin-bottom: 0.75em;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(left, var(--bleu_2), var(--bleu_3));
+        background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
     }
     
     .seize_texte_4 {
-        color: var(--vert_2);
+        color: var(--font_menu_4_0);
         text-decoration: none;
         font-size: 4em;
         font-family: "KaushanScript";
@@ -206,14 +196,14 @@
         margin-bottom: 0.75em;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(left, var(--vert_3), var(--jaune_2));
+        background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
     }
     
     .fa-music {
         font-size: 5em;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(left, #F15861, #F78F6A);
+        background-image: -webkit-linear-gradient(left, var(--icon_menu_1_1), var(--icon_menu_1_2));
     }
     
     .flex_lien_menu {
@@ -224,11 +214,11 @@
     }
     
     .lien_prochainement {
-        color: var(--jaune_1);
+        color: var(--jaune_titre);
         text-decoration: none;
         font-family: sans-serif;
         width: 20%;
-        background-color: var(--vert_1);
+        background-color: var(--vert_titre);
         font-size: 2em;
         border-radius: 10px;
         padding: 0.3em 1.5em 0.3em 1.5em;
@@ -250,12 +240,12 @@
         justify-content: space-around;
         align-items: center;
         font-size: 2em;
-        background-color: var(--vert_1);
+        background-color: var(--vert_titre);
     }
     
     .lien_footer {
         text-decoration: none;
-        color: var(--jaune_1);
+        color: var(--jaune_titre);
         font-family: sans-serif;
     }
     /*-------partie commune des 4 menu.html-------*/
@@ -280,7 +270,7 @@
     
     .color_font_texte_menu_1 {
         font-family: "Devonshire";
-        color: var(--marron_1);
+        color: var(--font_menu_1);
     }
     
     .font_seize_titre_p1 {
@@ -318,7 +308,7 @@
     
     .ligne_m1 {
         width: 30%;
-        border-bottom: solid 0.2em var(--marron_1);
+        border-bottom: solid 0.2em var(--font_menu_1);
     }
     
     .padding_h2_m1 {
@@ -338,22 +328,22 @@
         font-family: "CroissantOne";
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(left, var(--orange_1), var(--violet_1), var(--violet_2));
+        background-image: -webkit-linear-gradient(left, var(--font_menu_2_1), var(--font_menu_2_2), var(--font_menu_2_3));
     }
     
     .color_font_texte_menu_2_p1 {
         font-family: "RobotoSlab";
-        color: var(--orange_1);
+        color: var(--font_menu_2_1);
     }
     
     .color_font_texte_menu_2_p2 {
         font-family: "RobotoSlab";
-        color: var(--violet_1);
+        color: var(--font_menu_2_2);
     }
     
     .color_font_texte_menu_2_p3 {
         font-family: "RobotoSlab";
-        color: var(--violet_2);
+        color: var(--font_menu_2_3);
     }
     
     .font_seize_p2 {
@@ -421,7 +411,7 @@
         font-weight: normal;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(left, var(--bleu_2), var(--bleu_3));
+        background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
     }
     
     .font_seize_p3 {
@@ -437,10 +427,10 @@
     /*------menu 4------*/
     
     .color_texte_menu_4_titre {
-        font-size: 8em;
+        font-size: 7em;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-image: -webkit-linear-gradient(left, var(--vert_3), var(--jaune_2));
+        background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
     }
     
     .font_p4 {
@@ -454,7 +444,6 @@
     /*--------------mentions légales-------------*/
     
     .h1_mentions {
-        color: var(--jaune_1);
         font-size: 3em;
         padding-top: 1em;
     }
