@@ -419,7 +419,9 @@
         padding: 0 9em 2em 9em;
     }
     
-    .font_texte_menu_3_p1 {}
+    .font_texte_menu_3_p1 {
+        font-family: "Caveat";
+    }
     
     .titre_black_none {
         font-weight: normal;
