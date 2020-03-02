@@ -1,444 +1,438 @@
-@font-face {
-    font-family: "Roboto";
-    src: url(/public/ressources/fonts/Roboto-Regular.ttf);
-    /*police générale*/
-}
-
-@font-face {
-    font-family: "Devonshire";
-    src: url(/public/ressources/fonts/Devonshire-Regular.ttf);
-    /*police menu 1*/
-}
-
-@font-face {
-    font-family: "CroissantOne";
-    src: url(/public/ressources/fonts/CroissantOne-Regular.ttf);
-    /*police menu 2*/
-}
-
-@font-face {
-    font-family: "RobotoSlab";
-    src: url(/public/ressources/fonts/RobotoSlab-Regular.ttf);
-    /*police menu 2 "menu"*/
-}
-
-@font-face {
-    font-family: "DancingScript";
-    src: url(ressources/fonts/DancingScript-Regular.ttf);
-    /*police menu 3*/
-}
-
-@font-face {
-    font-family: "KaushanScript";
-    src: url(/public/ressources/fonts/KaushanScript-Regular.ttf);
-    /*police menu 4*/
-}
-
-@font-face {
-    font-family: "Caveat";
-    src: url(/public/ressources/fonts/Caveat-Regular.ttf);
-    /*police pargraphes menu 1.3.4*/
-}
-
-* {
-    margin-top: 0;
-}
-
-html {
-    font-family: "Roboto";
-    /*-----couleur titre principale et fond du site-----*/
-    --noir: #212121;
-    --blanc: #FAFAFA;
-    --vert_titre: #579C87;
-    --jaune_titre: #FDCB46;
-    --ombres: #BDBDBD;
-    /*------couleurs menu 1------*/
-    --fond_menu_1: #FCDFDB;
-    --font_menu_1: #3D1319;
-    --icon_menu_1_1: #F05060;
-    --icon_menu_1_2: #F6916A;
-    /*------couleurs menu 2------*/
-    --fond_menu_2: #FFF5FE;
-    --font_menu_2_1: #C77412;
-    --font_menu_2_2: #A56799;
-    --font_menu_2_3: #6E4CCC;
-    /*------couleurs menu 3------*/
-    --fond_menu_3: #F9F9F9;
-    --font_menu_0: #0887FB;
-    --font_menu_3_1: #0023DB;
-    --font_menu_3_2: #0670F3;
-    --font_menu_3_3: #229DF9;
-    /*------couleurs menu 4------*/
-    --fond_menu_4: #FDFFFD;
-    --font_menu_4_0: #72BF56;
-    --font_menu_4_1: #3E923A;
-    --font_menu_4_2: #BEFF7F;
-}
-
-
-/*--------couleurs de fond des menu index.html et menu1,2,3,4.html*/
-
-.color_menu_1 {
-    background-color: var(--fond_menu_1);
-}
-
-.color_menu_2 {
-    background-color: var(--fond_menu_2);
-}
-
-.color_menu_3 {
-    background-color: var(--fond_menu_3);
-}
-
-.color_menu_4 {
-    background-color: var(--fond_menu_4);
-}
-
-
-/*------élements du body-------*/
-
-body {
-    width: 60%;
-    background-color: var(--noir);
-    margin: auto;
-}
-
-
-/*-----index.html-----*/
-
-.titre_principal {
-    width: 100%;
-    height: 8em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--vert_titre);
-}
-
-.style_a {
-    text-decoration: none;
-}
-
-h1 {
-    color: var(--jaune_titre);
-    font-size: 4em;
-    font-family: sans-serif;
-    letter-spacing: -0.10em;
-    text-align: center;
-}
-
-.container_menu {
-    width: 100%;
-    background-color: var(--blanc);
-    padding-bottom: 7.5em;
-}
-
-.flex_paragraphe {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.seize_lien_menu {
-    width: 42.5%;
-    height: 45em;
-    box-shadow: 0 0 1.5em var(--ombres);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.seize_texte_1 {
-    color: var(--font_menu_1);
-    text-decoration: none;
-    font-size: 4em;
-    font-family: "Caveat";
-}
-
-.degrader_menu_1 {
-    color: var(--font_menu_1);
-    font-family: "Devonshire";
-    margin-bottom: 0.75em;
-    font-size: 2.5em;
-}
-
-.seize_texte_2 {
-    color: var(--font_menu_2_1);
-    text-decoration: none;
-    font-size: 4em;
-    font-family: "RobotoSlab";
-}
-
-.degrader_menu_2 {
-    font-family: "CroissantOne";
-    font-size: 2.5em;
-    margin-bottom: 0.75em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--font_menu_2_1), var(--font_menu_2_2), var(--font_menu_2_3));
-}
-
-.seize_texte_3 {
-    color: var(--font_menu_0);
-    text-decoration: none;
-    font-size: 4em;
-    font-family: "Caveat";
-}
-
-.degrader_menu_3 {
-    font-family: "DancingScript";
-    font-size: 3em;
-    margin-bottom: 0.75em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
-}
-
-.seize_texte_4 {
-    color: var(--font_menu_4_0);
-    text-decoration: none;
-    font-size: 4em;
-    font-family: "KaushanScript";
-}
-
-.degrader_menu_4 {
-    font-family: "KaushanScript";
-    font-size: 3.5em;
-    margin-bottom: 0.75em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
-}
-
-.fa-music {
-    font-size: 5em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--icon_menu_1_1), var(--icon_menu_1_2));
-}
-
-.flex_lien_menu {
-    padding: 4em 2em 0 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.lien_prochainement {
-    color: var(--jaune_titre);
-    text-decoration: none;
-    font-family: sans-serif;
-    width: 20%;
-    background-color: var(--vert_titre);
-    font-size: 2em;
-    border-radius: 10px;
-    padding: 0.3em 1.5em 0.3em 1.5em;
-}
-
-.flex_lien_prochainement {
-    padding-top: 4em;
-    display: flex;
-    justify-content: center;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 60%;
-}
-
-.padding_lien_footer {
-    height: 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 2em;
-    background-color: var(--vert_titre);
-    padding: 0 2em 0 2em;
-}
-
-.lien_footer {
-    text-decoration: none;
-    color: var(--jaune_titre);
-    font-family: sans-serif;
-}
-
-
-/*-------partie commune des 4 menu.html-------*/
-
-
-/*-----placement de titres et des paragraphes-----*/
-
-.center_h2 {
-    text-align: center;
-}
-
-.withd_container_menus {
-    width: 80%;
-    margin: auto;
-    padding: 3em 0 3em 0;
-}
-
-
-/*------menu 1------*/
-
-.color_font_texte_menu_1 {
-    font-family: "Devonshire";
-    color: var(--font_menu_1);
-}
-
-.flex_icon_bas_p1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex_ligne_m1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.ligne_m1 {
-    width: 30%;
-    border-bottom: solid 0.2em var(--font_menu_1);
-}
-
-
-/*------menu 2------*/
-
-.color_font_texte_menu_2_titre {
-    font-family: "CroissantOne";
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--font_menu_2_1), var(--font_menu_2_2), var(--font_menu_2_3));
-}
-
-.color_font_texte_menu_2_p1 {
-    font-family: "RobotoSlab";
-    color: var(--font_menu_2_1);
-}
-
-.color_font_texte_menu_2_p2 {
-    font-family: "RobotoSlab";
-    color: var(--font_menu_2_2);
-}
-
-.color_font_texte_menu_2_p3 {
-    font-family: "RobotoSlab";
-    color: var(--font_menu_2_3);
-}
-
-
-/*------lingnes des titres menu 2------*/
-
-#triangle-1 {
-    width: 0;
-    height: 0;
-    border-left: 9em solid transparent;
-    border-right: 2em solid transparent;
-    border-bottom: 0.25em solid;
-}
-
-#triangle-2 {
-    width: 0;
-    height: 0;
-    border-left: 9em solid transparent;
-    border-right: 2em solid transparent;
-    border-top: 0.25em solid;
-}
-
-#triangle-3 {
-    width: 0;
-    height: 0;
-    border-left: 2em solid transparent;
-    border-right: 9em solid transparent;
-    border-bottom: 0.25em solid;
-}
-
-#triangle-4 {
-    width: 0;
-    height: 0;
-    border-left: 2em solid transparent;
-    border-right: 9em solid transparent;
-    border-top: 0.25em solid;
-}
-
-.flex_lignes_m2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*------menu 3------*/
-
-.color_texte_menu_3_titre {
-    font-family: "DancingScript";
-    font-weight: normal;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
-}
-
-.font_texte_menu_3_p1 {
-    font-family: "Caveat";
-}
-
-.ligne_m3_1 {
-    width: 30%;
-    border-bottom: solid 0.5em var(--font_menu_3_1);
-}
-
-.ligne_m3_2 {
-    width: 30%;
-    border-bottom: solid 0.5em var(--font_menu_3_1);
-}
-
-.ligne_m3_3 {
-    width: 30%;
-    border-bottom: solid 0.5em var(--font_menu_3_1);
-}
-
-
-/*------menu 4------*/
-
-.color_texte_menu_4_titre {
-    font-size: 7em;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
-}
-
-.font_p4 {
-    font-family: "Caveat";
-}
-
-.ligne_m4_1 {
-    width: 30%;
-    height: 0.2em;
-    background: linear-gradient(to right, var(--font_menu_4_1), var(--font_menu_4_2));
-}
-
-.ligne_m4_2 {
-    width: 30%;
-    height: 0.2em;
-    background: linear-gradient(to right, var(--font_menu_4_2), var(--font_menu_4_1));
-}
-
-
-/*--------------mentions légales-------------*/
-
-.h1_mentions {
-    font-size: 3em;
-    padding-top: 1em;
-}
-
-.padding_article {
-    padding-left: 3em;
-}
+            @font-face {
+                font-family: "Roboto";
+                src: url(/public/ressources/fonts/Roboto-Regular.ttf);
+                /*police générale*/
+            }
+            
+            @font-face {
+                font-family: "Devonshire";
+                src: url(/public/ressources/fonts/Devonshire-Regular.ttf);
+                /*police menu 1*/
+            }
+            
+            @font-face {
+                font-family: "CroissantOne";
+                src: url(/public/ressources/fonts/CroissantOne-Regular.ttf);
+                /*police menu 2*/
+            }
+            
+            @font-face {
+                font-family: "RobotoSlab";
+                src: url(/public/ressources/fonts/RobotoSlab-Regular.ttf);
+                /*police menu 2 "menu"*/
+            }
+            
+            @font-face {
+                font-family: "DancingScript";
+                src: url(ressources/fonts/DancingScript-Regular.ttf);
+                /*police menu 3*/
+            }
+            
+            @font-face {
+                font-family: "KaushanScript";
+                src: url(/public/ressources/fonts/KaushanScript-Regular.ttf);
+                /*police menu 4*/
+            }
+            
+            @font-face {
+                font-family: "Segoe_Print_Bold";
+                src: url(/public/ressources/fonts/Segoe_Print_Bold.ttf);
+                /*police pargraphes menu 1.3.4*/
+            }
+            
+            @font-face {
+                font-family: "Segoe_Print_Regular";
+                src: url(/public/ressources/fonts/segoepr.ttf);
+                /*police pargraphes menu 1.3.4*/
+            }
+            
+            @font-face {
+                font-family: "Pax_bold";
+                src: url(/public/ressources/fonts/Pax\ 2\ Bold.ttf);
+                /*police pargraphes menu 1.3.4*/
+            }
+            
+            @font-face {
+                font-family: "Pax_regular";
+                src: url(/public/ressources/fonts/Pax\ 2\ Regular.ttf);
+                /*police pargraphes menu 1.3.4*/
+            }
+            
+            * {
+                margin-top: 0;
+            }
+            
+            html {
+                font-family: "Roboto";
+                /*-----couleur titre principale et fond du site-----*/
+                --noir: #212121;
+                --blanc: #FAFAFA;
+                --vert_titre: #579C87;
+                --jaune_titre: #FDCB46;
+                --ombres: #BDBDBD;
+                /*------couleurs menu 1------*/
+                --fond_menu_1: #FCDFDB;
+                --font_menu_1: #3D1319;
+                --icon_menu_1_1: #F05060;
+                --icon_menu_1_2: #F6916A;
+                /*------couleurs menu 2------*/
+                --fond_menu_2: #FFF5FE;
+                --font_menu_2_1: #C77412;
+                --font_menu_2_2: #A56799;
+                --font_menu_2_3: #6E4CCC;
+                /*------couleurs menu 3------*/
+                --fond_menu_3: #F9F9F9;
+                --font_menu_0: #0887FB;
+                --font_menu_3_1: #0023DB;
+                --font_menu_3_2: #0670F3;
+                --font_menu_3_3: #229DF9;
+                /*------couleurs menu 4------*/
+                --fond_menu_4: #FDFFFD;
+                --font_menu_4_0: #72BF56;
+                --font_menu_4_1: #3E923A;
+                --font_menu_4_2: #BEFF7F;
+            }
+            /*--------couleurs de fond des menu index.html et menu1,2,3,4.html*/
+            
+            .color_menu_1 {
+                background-color: var(--fond_menu_1);
+            }
+            
+            .color_menu_2 {
+                background-color: var(--fond_menu_2);
+            }
+            
+            .color_menu_3 {
+                background-color: var(--fond_menu_3);
+            }
+            
+            .color_menu_4 {
+                background-color: var(--fond_menu_4);
+            }
+            /*------élements du body-------*/
+            
+            body {
+                width: 60%;
+                background-color: var(--noir);
+                margin: auto;
+            }
+            /*-----index.html-----*/
+            
+            .titre_principal {
+                width: 100%;
+                height: 8em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 1.5em;
+                background-color: var(--vert_titre);
+            }
+            
+            .style_a {
+                text-decoration: none;
+            }
+            
+            h1 {
+                color: var(--jaune_titre);
+                font-size: 4em;
+                font-family: sans-serif;
+                letter-spacing: -0.10em;
+                text-align: center;
+            }
+            
+            .container_menu {
+                width: 100%;
+                background-color: var(--blanc);
+                padding-bottom: 7.5em;
+            }
+            
+            .flex_paragraphe {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            .seize_lien_menu {
+                width: 42.5%;
+                height: 45em;
+                box-shadow: 0 0 1.5em var(--ombres);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .seize_texte_1 {
+                color: var(--font_menu_1);
+                text-decoration: none;
+                font-size: 4em;
+                font-family: "Segoe_Print_Bold";
+            }
+            
+            .degrader_menu_1 {
+                color: var(--font_menu_1);
+                font-family: "Devonshire";
+                font-size: 2.5em;
+            }
+            
+            .seize_texte_2 {
+                color: var(--font_menu_2_1);
+                text-decoration: none;
+                font-size: 4em;
+                font-family: "RobotoSlab";
+            }
+            
+            .degrader_menu_2 {
+                font-family: "CroissantOne";
+                font-size: 2em;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: -webkit-linear-gradient(left, var(--font_menu_2_1), var(--font_menu_2_2), var(--font_menu_2_3));
+            }
+            
+            .seize_texte_3 {
+                color: var(--font_menu_0);
+                text-decoration: none;
+                font-size: 4em;
+                font-family: "Segoe_Print_Regular";
+            }
+            
+            .degrader_menu_3 {
+                font-family: "DancingScript";
+                font-size: 3em;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
+            }
+            
+            .seize_texte_4 {
+                color: var(--font_menu_4_0);
+                text-decoration: none;
+                font-size: 4em;
+                font-family: "Segoe_Print_Regular";
+            }
+            
+            .degrader_menu_4 {
+                font-family: "KaushanScript";
+                font-size: 3.5em;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
+            }
+            
+            .fa-music {
+                font-size: 5em;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: -webkit-linear-gradient(left, var(--icon_menu_1_1), var(--icon_menu_1_2));
+            }
+            
+            .flex_lien_menu {
+                padding: 4em 2em 0 2em;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            
+            .lien_prochainement {
+                color: var(--jaune_titre);
+                text-decoration: none;
+                font-family: sans-serif;
+                width: 20%;
+                background-color: var(--vert_titre);
+                font-size: 2em;
+                border-radius: 10px;
+                padding: 0.3em 1.5em 0.3em 1.5em;
+                text-align: center;
+            }
+            
+            .flex_lien_prochainement {
+                padding-top: 4em;
+                display: flex;
+                justify-content: center;
+            }
+            
+            footer {
+                position: fixed;
+                bottom: 0;
+                width: 60%;
+            }
+            
+            .padding_lien_footer {
+                height: 2em;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 2em;
+                background-color: var(--vert_titre);
+                padding: 0 2em 0 2em;
+            }
+            
+            .lien_footer {
+                text-decoration: none;
+                color: var(--jaune_titre);
+                font-family: sans-serif;
+            }
+            /*-------partie commune des 4 menu.html-------*/
+            /*-----placement de titres et des paragraphes-----*/
+            
+            .center_h2 {
+                text-align: center;
+            }
+            
+            .withd_container_menus {
+                width: 80%;
+                margin: auto;
+                padding: 3em 0 3em 0;
+            }
+            /*------menu 1------*/
+            
+            .color_font_texte_menu_1 {
+                font-family: "Devonshire";
+                color: var(--font_menu_1);
+            }
+            
+            .flex_icon_bas_p1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .flex_ligne_m1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .ligne_m1 {
+                width: 30%;
+                border-bottom: solid 0.2em var(--font_menu_1);
+            }
+            /*------menu 2------*/
+            
+            .color_font_texte_menu_2_titre {
+                font-family: "CroissantOne";
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: -webkit-linear-gradient(left, var(--font_menu_2_1), var(--font_menu_2_2), var(--font_menu_2_3));
+            }
+            
+            .color_font_texte_menu_2_p1 {
+                font-family: "RobotoSlab";
+                color: var(--font_menu_2_1);
+            }
+            
+            .color_font_texte_menu_2_p2 {
+                font-family: "RobotoSlab";
+                color: var(--font_menu_2_2);
+            }
+            
+            .color_font_texte_menu_2_p3 {
+                font-family: "RobotoSlab";
+                color: var(--font_menu_2_3);
+            }
+            /*------lingnes des titres menu 2------*/
+            
+            #triangle-1 {
+                width: 0;
+                height: 0;
+                border-left: 9em solid transparent;
+                border-right: 2em solid transparent;
+                border-bottom: 0.25em solid;
+            }
+            
+            #triangle-2 {
+                width: 0;
+                height: 0;
+                border-left: 9em solid transparent;
+                border-right: 2em solid transparent;
+                border-top: 0.25em solid;
+            }
+            
+            #triangle-3 {
+                width: 0;
+                height: 0;
+                border-left: 2em solid transparent;
+                border-right: 9em solid transparent;
+                border-bottom: 0.25em solid;
+            }
+            
+            #triangle-4 {
+                width: 0;
+                height: 0;
+                border-left: 2em solid transparent;
+                border-right: 9em solid transparent;
+                border-top: 0.25em solid;
+            }
+            
+            .flex_lignes_m2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            /*------menu 3------*/
+            
+            .color_texte_menu_3_titre {
+                font-family: "DancingScript";
+                font-weight: normal;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
+            }
+            
+            .font_texte_menu_3_p1 {
+                font-family: "Segoe_Print_Regular";
+            }
+            
+            .ligne_m3_1 {
+                width: 30%;
+                border-bottom: solid 0.5em var(--font_menu_3_1);
+            }
+            
+            .ligne_m3_2 {
+                width: 30%;
+                border-bottom: solid 0.5em var(--font_menu_3_2);
+            }
+            
+            .ligne_m3_3 {
+                width: 30%;
+                border-bottom: solid 0.5em var(--font_menu_3_3);
+            }
+            /*------menu 4------*/
+            
+            .color_texte_menu_4_titre {
+                font-size: 7em;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
+            }
+            
+            .font_p4 {
+                font-family: "Segoe_Print_Regular";
+            }
+            
+            .ligne_m4_1 {
+                width: 30%;
+                height: 0.2em;
+                background: linear-gradient(to right, var(--font_menu_4_1), var(--font_menu_4_2));
+            }
+            
+            .ligne_m4_2 {
+                width: 30%;
+                height: 0.2em;
+                background: linear-gradient(to right, var(--font_menu_4_2), var(--font_menu_4_1));
+            }
+            /*--------------mentions légales-------------*/
+            
+            .h1_mentions {
+                font-size: 3em;
+                padding-top: 1em;
+            }
+            
+            .padding_article {
+                padding-left: 3em;
+            }
