@@ -289,30 +289,11 @@ footer {
     color: var(--font_menu_1);
 }
 
-.font_seize_titre_p1 {
-    font-size: 4em;
-}
-
 .flex_icon_bas_p1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.font_seize_p1 {
-    font-family: "Caveat";
-    font-size: 2em;
-    padding: 0 2.5em 0 2.5em;
-}
-
-.seize_icon_bas_p1 {
-    padding-right: 0.5em;
-    font-size: 3em;
-}
-
-.seize_font_bas_p1 {
-    font-size: 3em;
 }
 
 .flex_ligne_m1 {
@@ -325,18 +306,6 @@ footer {
 .ligne_m1 {
     width: 30%;
     border-bottom: solid 0.2em var(--font_menu_1);
-}
-
-.padding_h2_m1 {
-    padding: 0 2em 0 2em;
-}
-
-.padding_h2_2_m1 {
-    padding: 0 1em 0 1em;
-}
-
-.padding_h2_3_m1 {
-    padding: 0 0.4em 0 0.4em;
 }
 
 
@@ -362,14 +331,6 @@ footer {
 .color_font_texte_menu_2_p3 {
     font-family: "RobotoSlab";
     color: var(--font_menu_2_3);
-}
-
-.font_seize_p2 {
-    padding: 0 4em 2em 4em;
-}
-
-.font_seize_titre_p2 {
-    font-size: 4em;
 }
 
 
@@ -414,54 +375,34 @@ footer {
     align-items: center;
 }
 
-.font_seize_h2_1 {
-    font-size: 1.7em;
-}
-
-.seize_h2_line {
-    padding: 0 0.55em 0 0.55em;
-    font-size: 1.2em;
-}
-
 
 /*------menu 3------*/
 
 .color_texte_menu_3_titre {
     font-family: "DancingScript";
-    font-size: 5em;
-    padding-bottom: 0.5em;
     font-weight: normal;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
 }
 
-.font_seize_p3 {
-    font-size: 1.4em;
-    padding: 0 9em 2em 9em;
-}
-
 .font_texte_menu_3_p1 {
     font-family: "Caveat";
 }
 
-.titre_black_none {
-    font-weight: normal;
-}
-
 .ligne_m3_1 {
     width: 30%;
-    border-bottom: solid 0.2em var(--font_menu_3_1);
+    border-bottom: solid 0.5em var(--font_menu_3_1);
 }
 
 .ligne_m3_2 {
     width: 30%;
-    border-bottom: solid 0.2em var(--font_menu_3_2);
+    border-bottom: solid 0.5em var(--font_menu_3_1);
 }
 
 .ligne_m3_3 {
     width: 30%;
-    border-bottom: solid 0.2em var(--font_menu_3_3);
+    border-bottom: solid 0.5em var(--font_menu_3_1);
 }
 
 
@@ -476,11 +417,6 @@ footer {
 
 .font_p4 {
     font-family: "Caveat";
-}
-
-.font_seize_p4 {
-    font-size: 2em;
-    padding: 0 3em 0 3em;
 }
 
 .ligne_m4_1 {
