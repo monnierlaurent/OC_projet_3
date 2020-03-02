@@ -133,6 +133,12 @@ h1 {
     padding-bottom: 7.5em;
 }
 
+.flex_paragraphe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .seize_lien_menu {
     width: 42.5%;
     height: 45em;
@@ -267,12 +273,6 @@ footer {
 
 .center_h2 {
     text-align: center;
-}
-
-.container_pragraphe {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .withd_container_menus {
