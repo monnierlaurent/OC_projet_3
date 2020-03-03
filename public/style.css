@@ -77,7 +77,7 @@
                 --font_menu_2_2: #A56799;
                 --font_menu_2_3: #6E4CCC;
                 /*------couleurs menu 3------*/
-                --fond_menu_3: #F9F9F9;
+                --fond_menu_3: #EDEFEF;
                 --font_menu_0: #0887FB;
                 --font_menu_3_1: #0023DB;
                 --font_menu_3_2: #0670F3;
@@ -478,6 +478,7 @@
             /*------menu 4------*/
             
             .color_texte_menu_4_titre {
+                font-family: "KaushanScript";
                 font-size: 5em;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -488,14 +489,23 @@
                 font-family: "Segoe_Print_Regular";
             }
             
+            .padding_titre_m4 {
+                padding-left: 3em;
+                padding-right: 3em;
+            }
+            
+            .padding_text_4 {
+                padding: 0 7em 0 7em;
+            }
+            
             .ligne_m4_1 {
-                width: 35%;
+                width: 33%;
                 height: 0.2em;
                 background: linear-gradient(to right, var(--font_menu_4_1), var(--font_menu_4_2));
             }
             
             .ligne_m4_2 {
-                width: 35%;
+                width: 33%;
                 height: 0.2em;
                 background: linear-gradient(to right, var(--font_menu_4_2), var(--font_menu_4_1));
             }
