@@ -434,11 +434,26 @@
             /*------menu 3------*/
             
             .color_texte_menu_3_titre {
+                padding-bottom: 0.5em;
+                font-size: 7em;
                 font-family: "DancingScript";
                 font-weight: normal;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
+            }
+            
+            .seize_h2_m3 {
+                font-size: 2em;
+                font-weight: normal;
+            }
+            
+            .padding_text_m3 {
+                padding: 0 7em 0 7em;
+            }
+            
+            .padding_h2_line {
+                padding: 0 2em 0 2em;
             }
             
             .font_texte_menu_3_p1 {
