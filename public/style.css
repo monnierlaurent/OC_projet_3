@@ -58,10 +58,6 @@
                 /*police pargraphes menu 1.3.4*/
             }
             
-            * {
-                margin-top: 0;
-            }
-            
             html {
                 font-family: "Roboto";
                 /*-----couleur titre principale et fond du site-----*/
@@ -112,7 +108,7 @@
             /*------élements du body-------*/
             
             body {
-                width: 60%;
+                width: 70%;
                 background-color: var(--noir);
                 margin: auto;
             }
@@ -120,11 +116,9 @@
             
             .titre_principal {
                 width: 100%;
-                height: 8em;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding-top: 1.5em;
                 background-color: var(--vert_titre);
             }
             
@@ -134,14 +128,22 @@
             
             h1 {
                 color: var(--jaune_titre);
-                font-size: 4em;
+                font-size: 5em;
                 font-family: sans-serif;
-                letter-spacing: -0.10em;
+                letter-spacing: -0.1em;
                 text-align: center;
             }
             
+            .font_seize_sous_titre {
+                padding-top: 0.8em;
+                font-family: "Pax_bold";
+                font-family: sans-serif;
+                font-size: 3em;
+            }
+            
             .container_menu {
-                width: 100%;
+                position: absolute;
+                width: 70%;
                 background-color: var(--blanc);
                 padding-bottom: 7.5em;
             }
@@ -153,7 +155,7 @@
             }
             
             .seize_lien_menu {
-                width: 42.5%;
+                width: 40%;
                 height: 45em;
                 box-shadow: 0 0 1.5em var(--ombres);
                 display: flex;
@@ -179,7 +181,7 @@
                 color: var(--font_menu_2_1);
                 text-decoration: none;
                 font-size: 4em;
-                font-family: "RobotoSlab";
+                font-family: "Pax_bold";
             }
             
             .degrader_menu_2 {
@@ -240,9 +242,9 @@
                 font-family: sans-serif;
                 width: 20%;
                 background-color: var(--vert_titre);
-                font-size: 2em;
+                font-size: 2.5em;
                 border-radius: 10px;
-                padding: 0.3em 1.5em 0.3em 1.5em;
+                padding: 0.5em 1.5em 0.5em 1.5em;
                 text-align: center;
             }
             
@@ -255,7 +257,7 @@
             footer {
                 position: fixed;
                 bottom: 0;
-                width: 60%;
+                width: 70%;
             }
             
             .padding_lien_footer {
@@ -284,9 +286,18 @@
             .withd_container_menus {
                 width: 80%;
                 margin: auto;
-                padding: 3em 0 3em 0;
+                padding: 5em 0 3em 0;
             }
             /*------menu 1------*/
+            
+            .padding_text {
+                padding: 0 5em 0 5em;
+            }
+            
+            .padding_titre {
+                padding-left: 6.5em;
+                padding-right: 6.5em;
+            }
             
             .color_font_texte_menu_1 {
                 font-family: "Devonshire";
@@ -303,13 +314,49 @@
             .flex_ligne_m1 {
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
             }
             
+            .font_seize_titre_p1 {
+                margin: 0;
+                padding-bottom: 0.5em;
+                font-size: 4em;
+                font-weight: lighter;
+            }
+            
+            .padding_h2_m1 {
+                font-size: 2em;
+            }
+            
+            .font_seize_p1 {
+                font-family: "Segoe_Print_Regular";
+            }
+            
             .ligne_m1 {
-                width: 30%;
-                border-bottom: solid 0.2em var(--font_menu_1);
+                width: 34%;
+                border-bottom: solid 0.4em var(--font_menu_1);
+            }
+            
+            .font_seize_paragraphe {
+                font-size: 1.3em;
+            }
+            
+            .seize_font_titre_bas_m1 {
+                font-size: 3em;
+                padding-left: 0.5em;
+            }
+            
+            .seize_icon_bas_p1 {
+                font-size: 4em;
+            }
+            
+            .padding_interligne_p3 {
+                padding-bottom: 0.8em;
+            }
+            
+            .padding_bot_fin_parag {
+                padding-bottom: 3em;
             }
             /*------menu 2------*/
             
@@ -321,17 +368,17 @@
             }
             
             .color_font_texte_menu_2_p1 {
-                font-family: "RobotoSlab";
+                font-family: "Pax_regular";
                 color: var(--font_menu_2_1);
             }
             
             .color_font_texte_menu_2_p2 {
-                font-family: "RobotoSlab";
+                font-family: "Pax_regular";
                 color: var(--font_menu_2_2);
             }
             
             .color_font_texte_menu_2_p3 {
-                font-family: "RobotoSlab";
+                font-family: "Pax_regular";
                 color: var(--font_menu_2_3);
             }
             /*------lingnes des titres menu 2------*/
@@ -371,7 +418,7 @@
             .flex_lignes_m2 {
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
             }
             /*------menu 3------*/
@@ -405,7 +452,7 @@
             /*------menu 4------*/
             
             .color_texte_menu_4_titre {
-                font-size: 7em;
+                font-size: 5em;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
@@ -416,13 +463,13 @@
             }
             
             .ligne_m4_1 {
-                width: 30%;
+                width: 35%;
                 height: 0.2em;
                 background: linear-gradient(to right, var(--font_menu_4_1), var(--font_menu_4_2));
             }
             
             .ligne_m4_2 {
-                width: 30%;
+                width: 35%;
                 height: 0.2em;
                 background: linear-gradient(to right, var(--font_menu_4_2), var(--font_menu_4_1));
             }
