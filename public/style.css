@@ -394,7 +394,7 @@
             }
             /*------lingnes des titres menu 2------*/
             
-            #triangle-1 {
+            .triangle_1 {
                 width: 0;
                 height: 0;
                 border-left: 18.5em solid transparent;
@@ -402,7 +402,7 @@
                 border-bottom: 0.5em solid;
             }
             
-            #triangle-2 {
+            .triangle_2 {
                 width: 0;
                 height: 0;
                 border-left: 18.5em solid transparent;
@@ -410,7 +410,7 @@
                 border-top: 0.5em solid;
             }
             
-            #triangle-3 {
+            .triangle_3 {
                 width: 0;
                 height: 0;
                 border-left: 2em solid transparent;
@@ -418,7 +418,7 @@
                 border-bottom: 0.5em solid;
             }
             
-            #triangle-4 {
+            .triangle_4 {
                 width: 0;
                 height: 0;
                 border-left: 2em solid transparent;
