@@ -58,6 +58,10 @@
                 /*police pargraphes menu 1.3.4*/
             }
             
+            * {
+                margin: 0;
+            }
+            
             html {
                 font-family: "Roboto";
                 /*-----couleur titre principale et fond du site-----*/
@@ -111,6 +115,10 @@
                 width: 70%;
                 background-color: var(--noir);
                 margin: auto;
+            }
+            
+            .margin_index {
+                padding-top: 1em;
             }
             /*-----index.html-----*/
             
@@ -170,6 +178,7 @@
                 text-decoration: none;
                 font-size: 4em;
                 font-family: "Segoe_Print_Bold";
+                padding-top: 0.4em;
             }
             
             .degrader_menu_1 {
@@ -183,6 +192,7 @@
                 text-decoration: none;
                 font-size: 4em;
                 font-family: "Pax_bold";
+                padding-top: 0.4em;
             }
             
             .degrader_menu_2 {
@@ -198,6 +208,7 @@
                 text-decoration: none;
                 font-size: 4em;
                 font-family: "Segoe_Print_Regular";
+                padding-top: 0.8em;
             }
             
             .degrader_menu_3 {
@@ -213,6 +224,7 @@
                 text-decoration: none;
                 font-size: 4em;
                 font-family: "Segoe_Print_Regular";
+                padding-top: 0.4em;
             }
             
             .degrader_menu_4 {
