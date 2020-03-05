@@ -151,8 +151,7 @@
             }
             
             .container_menu {
-                position: absolute;
-                width: 70%;
+                width: 100%;
                 background-color: var(--blanc);
                 padding-bottom: 7.5em;
             }
@@ -355,7 +354,7 @@
             }
             
             .font_seize_paragraphe {
-                font-size: 1.3em;
+                font-size: 1.5em;
             }
             
             .seize_font_titre_bas_m1 {
@@ -380,28 +379,48 @@
                 padding-bottom: 1.5em;
                 font-size: 3em;
                 font-family: "CroissantOne";
+                font-weight: normal;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-image: -webkit-linear-gradient(left, var(--font_menu_2_1), var(--font_menu_2_2), var(--font_menu_2_3));
             }
             
+            .padding_h2_m2 {
+                padding: 3em 0 3em 0;
+            }
+            
+            .padding_h2_p2 {
+                padding-bottom: 1em;
+            }
+            
+            .seize_prix_m2 {
+                font-size: 1.1em;
+            }
+            
             .color_font_texte_menu_2_p1 {
                 font-family: "Pax_regular";
+                font-weight: normal;
                 color: var(--font_menu_2_1);
             }
             
             .color_font_texte_menu_2_p2 {
+                font-weight: normal;
                 font-family: "Pax_regular";
                 color: var(--font_menu_2_2);
             }
             
             .color_font_texte_menu_2_p3 {
+                font-weight: normal;
                 font-family: "Pax_regular";
                 color: var(--font_menu_2_3);
             }
             
             .padding_text_2 {
-                padding: 0 9em 0 9em;
+                padding: 0 8em 0 8em;
+            }
+            
+            .padding_text_3 {
+                padding: 0 8em 1em 8em;
             }
             
             .padding_text_h2 {
