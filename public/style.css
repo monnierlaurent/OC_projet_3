@@ -516,8 +516,9 @@
             /*------menu 4------*/
             
             .color_texte_menu_4_titre {
+                padding: 0.1em 0 1em 0;
                 font-family: "KaushanScript";
-                font-size: 5em;
+                font-size: 6.5em;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
@@ -525,6 +526,14 @@
             
             .font_p4 {
                 font-family: "Segoe_Print_Regular";
+            }
+            
+            .font_seize_paragraphe_m4 {
+                font-size: 1.3em;
+            }
+            
+            .padding_pargraphe_m4 {
+                padding-bottom: 1em;
             }
             
             .padding_titre_m4 {
