@@ -173,6 +173,31 @@
                 align-items: center;
             }
             
+            .animation:hover {
+                animation: zoom 5s forwards;
+            }
+            
+            @keyframes zoom {
+                0% {
+                    width: 40%;
+                    height: 45em;
+                    font-size: 1em;
+                    opacity: 1;
+                }
+                4% {
+                    width: 40%;
+                    height: 45em;
+                    font-size: 1.2em;
+                    opacity: 0.6;
+                }
+                100% {
+                    width: 40%;
+                    height: 45em;
+                    font-size: 1.2em;
+                    opacity: 0.5;
+                }
+            }
+            
             .seize_texte_1 {
                 color: var(--font_menu_1);
                 text-decoration: none;
@@ -290,6 +315,28 @@
                 text-decoration: none;
                 color: var(--jaune_titre);
                 font-family: sans-serif;
+            }
+            
+            .lien_footer:hover {
+                animation: Wiggle 3s infinite;
+            }
+            
+            @keyframes Wiggle {
+                0% {
+                    transform: rotate(0deg)
+                }
+                3% {
+                    transform: rotate(-2deg)
+                }
+                4% {
+                    transform: rotate(2deg)
+                }
+                5% {
+                    transform: rotate(0deg)
+                }
+                100% {
+                    transform: rotate(0deg)
+                }
             }
             /*-------partie commune des 4 menu.html-------*/
             /*-----placement de titres et des paragraphes-----*/
