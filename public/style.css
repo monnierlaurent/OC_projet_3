@@ -377,6 +377,11 @@
             .padding_bot_fin_parag {
                 padding-bottom: 3em;
             }
+            
+            .seize_svg_m1 {
+                width: 20em;
+                height: 3em;
+            }
             /*------menu 2------*/
             
             .color_font_texte_menu_2_titre {
@@ -492,7 +497,7 @@
             }
             
             .padding_h2_line {
-                padding: 0 2em 0 2em;
+                padding: 0 3em 0 3em;
             }
             
             .font_texte_menu_3_p1 {
@@ -512,6 +517,11 @@
             .ligne_m3_3 {
                 width: 30%;
                 border-bottom: solid 0.5em var(--font_menu_3_3);
+            }
+            
+            .seize_svg_m3 {
+                width: 20em;
+                height: 3em;
             }
             /*------menu 4------*/
             
@@ -572,6 +582,11 @@
                 width: 33%;
                 height: 0.2em;
                 background: linear-gradient(to right, var(--font_menu_4_2), var(--font_menu_4_1));
+            }
+            
+            .seize_svg_m3 {
+                width: 23em;
+                height: 3em;
             }
             /*--------------mentions légales-------------*/
             
