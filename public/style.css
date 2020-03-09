@@ -339,13 +339,18 @@
             
             .font_seize_titre_p1 {
                 margin: 0;
-                padding-bottom: 0.5em;
+                padding-bottom: 1em;
                 font-size: 4em;
                 font-weight: lighter;
             }
             
             .padding_h2_m1 {
                 font-size: 2em;
+                padding-bottom: 1em;
+            }
+            
+            .padding_h2_svg_m1 {
+                padding-bottom: 0.8em;
             }
             
             .font_seize_p1 {
@@ -366,6 +371,10 @@
                 padding-left: 0.5em;
             }
             
+            .padding_titre_bas_m1 {
+                padding-bottom: 5em;
+            }
+            
             .seize_icon_bas_p1 {
                 font-size: 4em;
             }
@@ -375,7 +384,11 @@
             }
             
             .padding_bot_fin_parag {
-                padding-bottom: 3em;
+                padding-bottom: 2em;
+            }
+            
+            .padding_bot_fin_parag_2 {
+                padding-bottom: 5em;
             }
             
             .seize_svg_m1 {
