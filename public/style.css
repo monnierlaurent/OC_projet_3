@@ -532,8 +532,25 @@
                 font-size: 1.3em;
             }
             
+            .seize_prix_m4 {
+                font-weight: normal;
+                font-size: 1.2em;
+            }
+            
+            .padding_sous_titre_m4 {
+                padding-bottom: 2.5em;
+            }
+            
+            .padding_sous_paragraphe_m4 {
+                padding-bottom: 2em;
+            }
+            
+            .padding_sous_paragraphe_2_m4 {
+                padding-bottom: 10em;
+            }
+            
             .padding_pargraphe_m4 {
-                padding-bottom: 1em;
+                padding-bottom: 0.6em;
             }
             
             .padding_titre_m4 {
