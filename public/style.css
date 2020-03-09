@@ -393,7 +393,7 @@
             
             .seize_svg_m1 {
                 width: 20em;
-                height: 3em;
+                height: auto;
             }
             /*------menu 2------*/
             
@@ -500,41 +500,40 @@
                 background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
             }
             
+            .font_seize_paragraphe_m3 {
+                font-size: 1.3em;
+                font-weight: normal;
+            }
+            
+            .seize_prix_m3 {
+                font-size: 1.7em;
+                font-weight: normal;
+            }
+            
             .seize_h2_m3 {
-                font-size: 2em;
+                font-size: 1.7em;
                 font-weight: normal;
             }
             
             .padding_text_m3 {
-                padding: 0 7em 0 7em;
+                padding: 0 10em 0.5em 10em;
             }
             
             .padding_h2_line {
-                padding: 0 3em 0 3em;
+                padding: 0 3em 2em 3em;
+            }
+            
+            .padding_bot_fin_parag_m3 {
+                padding-bottom: 8em;
             }
             
             .font_texte_menu_3_p1 {
                 font-family: "Segoe_Print_Regular";
             }
             
-            .ligne_m3_1 {
-                width: 30%;
-                border-bottom: solid 0.5em var(--font_menu_3_1);
-            }
-            
-            .ligne_m3_2 {
-                width: 30%;
-                border-bottom: solid 0.5em var(--font_menu_3_2);
-            }
-            
-            .ligne_m3_3 {
-                width: 30%;
-                border-bottom: solid 0.5em var(--font_menu_3_3);
-            }
-            
             .seize_svg_m3 {
-                width: 20em;
-                height: 3em;
+                width: 23em;
+                height: auto;
             }
             /*------menu 4------*/
             
@@ -597,9 +596,9 @@
                 background: linear-gradient(to right, var(--font_menu_4_2), var(--font_menu_4_1));
             }
             
-            .seize_svg_m3 {
+            .seize_svg_m4 {
                 width: 23em;
-                height: 3em;
+                height: auto;
             }
             /*--------------mentions légales-------------*/
             
