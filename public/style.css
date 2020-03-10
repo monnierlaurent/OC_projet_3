@@ -294,6 +294,17 @@
                 justify-content: center;
             }
             
+            .fa-circle {
+                font-size: 0.2em;
+                padding-right: 1em;
+            }
+            
+            .point_1 {}
+            
+            .point_2 {}
+            
+            .point_3 {}
+            
             footer {
                 position: fixed;
                 bottom: 0;
