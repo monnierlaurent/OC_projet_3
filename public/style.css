@@ -1,48 +1,48 @@
             @font-face {
                 font-family: "Roboto";
-                src: url(public/ressources/fonts/Roboto-Regular.ttf);
+                src: url(/public/ressources/fonts/Roboto-Regular.ttf);
                 /*police générale*/
             }
             
             @font-face {
                 font-family: "Devonshire";
-                src: url(public/ressources/fonts/Devonshire-Regular.ttf);
+                src: url(/public/ressources/fonts/Devonshire-Regular.ttf);
                 /*police menu 1*/
             }
             
             @font-face {
                 font-family: "CroissantOne";
-                src: url(public/ressources/fonts/CroissantOne-Regular.ttf);
+                src: url(/public/ressources/fonts/CroissantOne-Regular.ttf);
                 /*police menu 2*/
             }
             
             @font-face {
                 font-family: "RobotoSlab";
-                src: url(public/ressources/fonts/RobotoSlab-Regular.ttf);
+                src: url(/public/ressources/fonts/RobotoSlab-Regular.ttf);
                 /*police menu 2 "menu"*/
             }
             
             @font-face {
                 font-family: "DancingScript";
-                src: url(ressources/fonts/DancingScript-Regular.ttf);
+                src: url(/public/ressources/fonts/DancingScript-Regular.ttf);
                 /*police menu 3*/
             }
             
             @font-face {
                 font-family: "KaushanScript";
-                src: url(public/ressources/fonts/KaushanScript-Regular.ttf);
+                src: url(/public/ressources/fonts/KaushanScript-Regular.ttf);
                 /*police menu 4*/
             }
             
             @font-face {
                 font-family: "Segoe_Print_Bold";
-                src: url(public/ressources/fonts/Segoe_Print_Bold.ttf);
+                src: url(/public/ressources/fonts/Segoe_Print_Bold.ttf);
                 /*police pargraphes menu 1.3.4*/
             }
             
             @font-face {
                 font-family: "Segoe_Print_Regular";
-                src: url(public/ressources/fonts/segoepr.ttf);
+                src: url(/public/ressources/fonts/segoepr.ttf);
                 /*police pargraphes menu 1.3.4*/
             }
             
