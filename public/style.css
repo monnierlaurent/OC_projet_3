@@ -299,11 +299,74 @@
                 padding-right: 1em;
             }
             
-            .point_1 {}
+            .point_1 {
+                transform: translate(0, 0);
+                animation: point .7s infinite;
+            }
             
-            .point_2 {}
+            .point_2 {
+                transform: translate(0, 0);
+                animation: point .7s infinite .2s;
+            }
             
-            .point_3 {}
+            .point_3 {
+                transform: translate(0, 0);
+                animation: point .7s infinite .4s;
+            }
+            
+            @keyframes point {
+                0% {
+                    transform: translate(0, 0);
+                }
+                6% {
+                    transform: translate(0, -2px);
+                }
+                12% {
+                    transform: translate(0, -4px);
+                }
+                18% {
+                    transform: translate(0, -6px);
+                }
+                24% {
+                    transform: translate(0, -8px);
+                }
+                30% {
+                    transform: translate(0, -10px);
+                }
+                36% {
+                    transform: translate(0, -12px);
+                }
+                42% {
+                    transform: translate(0, -14px);
+                }
+                48% {
+                    transform: translate(0, -16px);
+                }
+                54% {
+                    transform: translate(0, -14px);
+                }
+                60% {
+                    transform: translate(0, -12px);
+                }
+                66% {
+                    transform: translate(0, -10px);
+                }
+                72% {
+                    transform: translate(0, -8px);
+                }
+                78% {
+                    transform: translate(0, -6px);
+                }
+                84% {
+                    transform: translate(0, -4px);
+                }
+                90% {
+                    transform: translate(0, -2px);
+                }
+                100% {
+                    transform: translate(0, 0);
+                }
+            }
             
             footer {
                 position: fixed;
