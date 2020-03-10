@@ -318,7 +318,7 @@
             }
             
             .lien_footer:hover {
-                animation: Wiggle 3s infinite;
+                animation: Wiggle 3s forwards;
             }
             
             @keyframes Wiggle {
@@ -332,6 +332,24 @@
                     transform: rotate(2deg)
                 }
                 5% {
+                    transform: rotate(-2deg)
+                }
+                6% {
+                    transform: rotate(2deg)
+                }
+                7% {
+                    transform: rotate(-2deg)
+                }
+                8% {
+                    transform: rotate(2deg)
+                }
+                9% {
+                    transform: rotate(-2deg)
+                }
+                10% {
+                    transform: rotate(2deg)
+                }
+                11% {
                     transform: rotate(0deg)
                 }
                 100% {
