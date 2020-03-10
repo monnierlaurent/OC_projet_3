@@ -280,7 +280,7 @@
                 color: var(--jaune_titre);
                 text-decoration: none;
                 font-family: sans-serif;
-                width: 20%;
+                width: 23%;
                 background-color: var(--vert_titre);
                 font-size: 2.5em;
                 border-radius: 10px;
@@ -402,11 +402,6 @@
             
             .font_seize_p1 {
                 font-family: "Segoe_Print_Regular";
-            }
-            
-            .ligne_m1 {
-                width: 34%;
-                border-bottom: solid 0.4em var(--font_menu_1);
             }
             
             .font_seize_paragraphe {
