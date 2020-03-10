@@ -69,7 +69,7 @@
                 --blanc: #FAFAFA;
                 --vert_titre: #579C87;
                 --jaune_titre: #FDCB46;
-                --ombres: #BDBDBD;
+                --ombres: #E0E0E0;
                 /*------couleurs menu 1------*/
                 --fond_menu_1: #FCDFDB;
                 --font_menu_1: #3D1319;
@@ -163,9 +163,10 @@
             }
             
             .seize_lien_menu {
+                overflow: hidden;
                 text-decoration: none;
                 width: 40%;
-                height: 45em;
+                height: 45rem;
                 box-shadow: 0 0 1.5em var(--ombres);
                 display: flex;
                 flex-direction: column;
@@ -174,25 +175,15 @@
             }
             
             .animation:hover {
-                animation: zoom 5s forwards;
+                animation: zoom .5s forwards;
             }
             
             @keyframes zoom {
-                0% {
-                    width: 40%;
-                    height: 45em;
+                from {
                     font-size: 1em;
                     opacity: 1;
                 }
-                4% {
-                    width: 40%;
-                    height: 45em;
-                    font-size: 1.2em;
-                    opacity: 0.6;
-                }
-                100% {
-                    width: 40%;
-                    height: 45em;
+                to {
                     font-size: 1.2em;
                     opacity: 0.5;
                 }
