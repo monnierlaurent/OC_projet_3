@@ -172,10 +172,9 @@
                 justify-content: center;
                 align-items: center;
             }
-            
-            .animation:hover {
+            /*.animation:hover {
                 animation: zoom 5s forwards;
-            }
+            }*/
             
             @keyframes zoom {
                 0% {
