@@ -195,6 +195,7 @@
                 font-size: 4em;
                 font-family: "Segoe_Print_Bold";
                 padding-top: 0.4em;
+                ;
             }
             
             .degrader_menu_1 {
@@ -230,6 +231,7 @@
             }
             
             .degrader_menu_3 {
+                padding: 0 0.1em 0 0.1em;
                 font-family: "DancingScript";
                 font-size: 3.3em;
                 -webkit-background-clip: text;
@@ -439,6 +441,16 @@
             }
             /*------menu 1------*/
             
+            .souligne {
+                background: linear-gradient(to top, var(--font_menu_1)0%, var(--font_menu_1)4px, transparent 5px) no-repeat;
+                background-size: 0 100%;
+                transition: background-size .3s;
+            }
+            
+            .souligne:hover {
+                background-size: 100% 100%;
+            }
+            
             .padding_text {
                 padding: 0 5em 0 5em;
             }
@@ -476,7 +488,6 @@
             
             .padding_h2_m1 {
                 font-size: 2em;
-                padding-bottom: 1em;
             }
             
             .padding_h2_svg_m1 {
@@ -530,6 +541,37 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-image: -webkit-linear-gradient(left, var(--font_menu_2_1), var(--font_menu_2_2), var(--font_menu_2_3));
+            }
+            /*--------animation soustitres menu 2-------*/
+            
+            .souligne_m2_1 {
+                background: linear-gradient(to top, var(--font_menu_2_1)0%, var(--font_menu_2_1)4px, transparent 5px) no-repeat;
+                background-size: 0 100%;
+                transition: background-size .3s;
+            }
+            
+            .souligne_m2_1:hover {
+                background-size: 100% 100%;
+            }
+            
+            .souligne_m2_2 {
+                background: linear-gradient(to top, var(--font_menu_2_2)0%, var(--font_menu_2_2)4px, transparent 5px) no-repeat;
+                background-size: 0 100%;
+                transition: background-size .3s;
+            }
+            
+            .souligne_m2_2:hover {
+                background-size: 100% 100%;
+            }
+            
+            .souligne_m2_3 {
+                background: linear-gradient(to top, var(--font_menu_2_3)0%, var(--font_menu_2_3)4px, transparent 5px) no-repeat;
+                background-size: 0 100%;
+                transition: background-size .3s;
+            }
+            
+            .souligne_m2_3:hover {
+                background-size: 100% 100%;
             }
             
             .padding_h2_m2 {
@@ -624,6 +666,37 @@
                 -webkit-text-fill-color: transparent;
                 background-image: -webkit-linear-gradient(left, var(--font_menu_3_1), var(--font_menu_3_2), var(--font_menu_3_3));
             }
+            /*--------animation soustitres menu 3-------*/
+            
+            .souligne_m3_1 {
+                background: linear-gradient(to top, var(--font_menu_3_1)0%, var(--font_menu_3_1)4px, transparent 5px) no-repeat;
+                background-size: 0 100%;
+                transition: background-size .3s;
+            }
+            
+            .souligne_m3_1:hover {
+                background-size: 100% 100%;
+            }
+            
+            .souligne_m3_2 {
+                background: linear-gradient(to top, var(--font_menu_3_2)0%, var(--font_menu_3_2)4px, transparent 5px) no-repeat;
+                background-size: 0 100%;
+                transition: background-size .3s;
+            }
+            
+            .souligne_m3_2:hover {
+                background-size: 100% 100%;
+            }
+            
+            .souligne_m3_3 {
+                background: linear-gradient(to top, var(--font_menu_3_3)0%, var(--font_menu_3_3)4px, transparent 5px) no-repeat;
+                background-size: 0 100%;
+                transition: background-size .3s;
+            }
+            
+            .souligne_m3_3:hover {
+                background-size: 100% 100%;
+            }
             
             .font_seize_paragraphe_m3 {
                 font-size: 1.3em;
@@ -669,6 +742,17 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-image: -webkit-linear-gradient(left, var(--font_menu_4_1), var(--font_menu_4_2));
+            }
+            /*--------animation soustitres menu 4-------*/
+            
+            .souligne_m4_1 {
+                background: linear-gradient(to top, var(--font_menu_4_0)0%, var(--font_menu_4_0)4px, transparent 5px) no-repeat;
+                background-size: 0 100%;
+                transition: background-size .3s;
+            }
+            
+            .souligne_m4_1:hover {
+                background-size: 100% 100%;
             }
             
             .font_p4 {
