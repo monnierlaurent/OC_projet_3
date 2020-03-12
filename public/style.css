@@ -819,18 +819,6 @@ footer {
     padding: 0 7em 0 7em;
 }
 
-.ligne_m4_1 {
-    width: 33%;
-    height: 0.2em;
-    background: linear-gradient(to right, var(--font_menu_4_1), var(--font_menu_4_2));
-}
-
-.ligne_m4_2 {
-    width: 33%;
-    height: 0.2em;
-    background: linear-gradient(to right, var(--font_menu_4_2), var(--font_menu_4_1));
-}
-
 .seize_svg_m4 {
     width: 23em;
     height: auto;
@@ -943,4 +931,18 @@ footer {
         padding-bottom: 8em;
     }
     /*-----menu 4-----*/
+    .color_texte_menu_4_titre {
+        font-size: 5em;
+    }
+    .seize_svg_m4 {
+        width: 10em;
+        height: auto;
+    }
+    .padding_titre_m4 {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    .padding_text_4 {
+        padding: 0 2em 0 2em;
+    }
 }
