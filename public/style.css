@@ -926,5 +926,21 @@ footer {
         padding: 0 1em 1em 1em;
     }
     /*-----menu 3-----*/
+    .color_texte_menu_3_titre {
+        font-size: 5em;
+    }
+    .seize_svg_m3 {
+        width: 11em;
+        height: auto;
+    }
+    .padding_text_m3 {
+        padding: 0 2em 0.5em 2em;
+    }
+    .padding_h2_line {
+        padding: 0 1em 2em 1em;
+    }
+    .padding_bot_fin_parag_m3 {
+        padding-bottom: 8em;
+    }
     /*-----menu 4-----*/
 }
