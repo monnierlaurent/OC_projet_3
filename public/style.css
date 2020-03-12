@@ -839,8 +839,6 @@ footer {
 @media screen and (max-width: 780px) {
     body {
         width: 100%;
-        background-color: var(--noir);
-        margin: auto;
     }
     footer {
         width: 100%;
@@ -864,6 +862,150 @@ footer {
     .withd_container_menus {
         width: 90%;
         margin: auto;
+    }
+    /*-----menu 1-----*/
+    .seize_svg_m1 {
+        width: 11.5em;
+        height: auto;
+    }
+    .padding_titre {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .padding_text {
+        padding: 0 1em 0 1em;
+    }
+    .padding_rignt_p {
+        padding-right: 1em;
+    }
+    .padding_bot_fin_parag_2 {
+        padding-bottom: 5em;
+    }
+    /*-----menu 2-----*/
+    .triangle_1 {
+        border-left: 5em solid transparent;
+        border-right: 1.5em solid transparent;
+        border-bottom: 0.3em solid;
+    }
+    .triangle_2 {
+        border-left: 5em solid transparent;
+        border-right: 1.5em solid transparent;
+        border-top: 0.3em solid;
+    }
+    .triangle_3 {
+        border-left: 1.5em solid transparent;
+        border-right: 5em solid transparent;
+        border-bottom: 0.3em solid;
+    }
+    .triangle_4 {
+        border-left: 1.5em solid transparent;
+        border-right: 5em solid transparent;
+        border-top: 0.3em solid;
+    }
+    .padding_text_h2 {
+        padding: 0 1em 0 1em;
+    }
+    .padding_text_2 {
+        padding: 0 1em 0 1em;
+    }
+    .padding_text_3 {
+        padding: 0 1em 1em 1em;
+    }
+    /*-----menu 3-----*/
+    .color_texte_menu_3_titre {
+        font-size: 5em;
+    }
+    .seize_svg_m3 {
+        width: 11em;
+        height: auto;
+    }
+    .padding_text_m3 {
+        padding: 0 2em 0.5em 2em;
+    }
+    .padding_h2_line {
+        padding: 0 1em 2em 1em;
+    }
+    .padding_bot_fin_parag_m3 {
+        padding-bottom: 8em;
+    }
+    /*-----menu 4-----*/
+    .color_texte_menu_4_titre {
+        font-size: 5em;
+    }
+    .seize_svg_m4 {
+        width: 10em;
+        height: auto;
+    }
+    .padding_titre_m4 {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    .padding_text_4 {
+        padding: 0 2em 0 2em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 4em;
+    }
+    .flex_lien_menu {
+        padding: 4em 0.5em 0 0.5em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seize_lien_menu {
+        width: 99%;
+        height: 30rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .padding_lien_menu {
+        margin-bottom: 4em;
+    }
+    .lien_prochainement {
+        width: 50%;
+    }
+    .lien_prochainement {
+        font-size: 1.4em;
+    }
+    .lien_footer {
+        font-size: 0.7em;
+    }
+    .padding_lien_footer {
+        padding: 0 0.4em 0 0.4em;
+    }
+    .withd_container_menus {
+        width: 90%;
+        margin: auto;
+    }
+    .seize_texte_1 {
+        font-size: 3em;
+        padding-top: 0.4em;
+    }
+    .degrader_menu_1 {
+        font-size: 3em;
+    }
+    .seize_texte_2 {
+        font-size: 3em;
+        padding-top: 0.4em;
+    }
+    .degrader_menu_2 {
+        font-size: 1.5em;
+    }
+    .seize_texte_3 {
+        font-size: 3em;
+        padding-top: 0.8em;
+    }
+    .degrader_menu_3 {
+        padding: 0 0.1em 0 0.1em;
+        font-size: 2.2em;
+    }
+    .seize_texte_4 {
+        font-size: 3em;
+    }
+    .degrader_menu_4 {
+        font-size: 2.5em;
     }
     /*-----menu 1-----*/
     .seize_svg_m1 {
