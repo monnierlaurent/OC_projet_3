@@ -819,3 +819,54 @@
             .padding_article {
                 padding-left: 3em;
             }
+            
+            @media screen and (max-width: 1900px) {
+                body {
+                    width: 80%;
+                }
+                footer {
+                    width: 100%;
+                }
+                .lien_prochainement {
+                    font-size: 2.5em;
+                }
+            }
+            
+            @media screen and (max-width: 1780px) {
+                body {
+                    width: 85%;
+                }
+                footer {
+                    width: 85%;
+                }
+            }
+            
+            @media screen and (max-width: 1680px) {
+                body {
+                    width: 90%;
+                }
+                footer {
+                    width: 90%;
+                }
+            }
+            
+            @media screen and (max-width: 1580px) {
+                body {
+                    width: 95%;
+                }
+                footer {
+                    width: 95%;
+                }
+            }
+            
+            @media screen and (max-width: 1490px) {
+                body {
+                    width: 100%;
+                }
+                footer {
+                    width: 100%;
+                }
+                .lien_prochainement {
+                    font-size: 2em;
+                }
+            }
