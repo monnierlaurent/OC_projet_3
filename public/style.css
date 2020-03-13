@@ -1108,11 +1108,20 @@ footer {
     }
     /*-----menu 3-----*/
     .color_texte_menu_3_titre {
-        font-size: 5em;
+        font-size: 2.5em;
     }
     .seize_svg_m3 {
-        width: 11em;
+        width: 3em;
         height: auto;
+    }
+    .font_seize_paragraphe_m3 {
+        font-size: 0.9em;
+    }
+    .seize_h2_m3 {
+        font-size: 1.1em;
+    }
+    .seize_prix_m3 {
+        font-size: 1.1em;
     }
     .padding_text_m3 {
         padding: 0 2em 0.5em 2em;
