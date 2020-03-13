@@ -531,6 +531,10 @@ footer {
     padding-bottom: 0.8em;
 }
 
+.padding_interligne_m1_p3 {
+    padding-bottom: 0.8em;
+}
+
 .padding_bot_fin_parag {
     padding-bottom: 2em;
 }
@@ -946,6 +950,11 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+    .souligne {
+        background: linear-gradient(to top, var(--font_menu_1)0%, var(--font_menu_1)2px, transparent 2.5px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
     h1 {
         font-size: 4em;
     }
@@ -1008,13 +1017,31 @@ footer {
         font-size: 2.5em;
     }
     /*-----menu 1-----*/
+    .font_seize_sous_titre {
+        font-size: 2em;
+    }
+    .font_seize_titre_p1 {
+        font-size: 3.5em;
+    }
+    .seize_icon {
+        font-size: 3em;
+    }
+    .padding_h2_m1 {
+        font-size: 1.2em;
+    }
+    .font_seize_paragraphe {
+        font-size: 1em;
+    }
+    .padding_interligne_m1_p3 {
+        margin-bottom: 0.8em;
+    }
     .seize_svg_m1 {
-        width: 11.5em;
+        width: 4.5em;
         height: auto;
     }
     .padding_titre {
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
     .padding_text {
         padding: 0 1em 0 1em;
@@ -1024,6 +1051,12 @@ footer {
     }
     .padding_bot_fin_parag_2 {
         padding-bottom: 5em;
+    }
+    .seize_font_titre_bas_m1 {
+        font-size: 2em;
+    }
+    .seize_icon_bas_p1 {
+        font-size: 3em;
     }
     /*-----menu 2-----*/
     .triangle_1 {
