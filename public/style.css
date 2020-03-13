@@ -1059,28 +1059,46 @@ footer {
         font-size: 3em;
     }
     /*-----menu 2-----*/
+    .color_font_texte_menu_2_titre {
+        font-size: 1.7em;
+    }
+    .souligne_m2_1 {
+        background: linear-gradient(to top, var(--font_menu_2_1)0%, var(--font_menu_2_1)2px, transparent 2.5px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+    .souligne_m2_2 {
+        background: linear-gradient(to top, var(--font_menu_2_2)0%, var(--font_menu_2_2)2px, transparent 2.5px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+    .souligne_m2_3 {
+        background: linear-gradient(to top, var(--font_menu_2_3)0%, var(--font_menu_2_3)2px, transparent 2.5px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
     .triangle_1 {
-        border-left: 5em solid transparent;
-        border-right: 1.5em solid transparent;
-        border-bottom: 0.3em solid;
+        border-left: 1.5em solid transparent;
+        border-right: 1em solid transparent;
+        border-bottom: 0.25em solid;
     }
     .triangle_2 {
-        border-left: 5em solid transparent;
-        border-right: 1.5em solid transparent;
-        border-top: 0.3em solid;
+        border-left: 1.5em solid transparent;
+        border-right: 1em solid transparent;
+        border-top: 0.25em solid;
     }
     .triangle_3 {
-        border-left: 1.5em solid transparent;
-        border-right: 5em solid transparent;
-        border-bottom: 0.3em solid;
+        border-left: 1em solid transparent;
+        border-right: 1.5em solid transparent;
+        border-bottom: 0.25em solid;
     }
     .triangle_4 {
-        border-left: 1.5em solid transparent;
-        border-right: 5em solid transparent;
-        border-top: 0.3em solid;
+        border-left: 1em solid transparent;
+        border-right: 1.5em solid transparent;
+        border-top: 0.25em solid;
     }
     .padding_text_h2 {
-        padding: 0 1em 0 1em;
+        padding: 0 0.5em 0 0.5em;
     }
     .padding_text_2 {
         padding: 0 1em 0 1em;
