@@ -1107,6 +1107,21 @@ footer {
         padding: 0 1em 1em 1em;
     }
     /*-----menu 3-----*/
+    .souligne_m3_1 {
+        background: linear-gradient(to top, var(--font_menu_3_1)0%, var(--font_menu_3_1)2px, transparent 2.5px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+    .souligne_m3_2 {
+        background: linear-gradient(to top, var(--font_menu_3_2)0%, var(--font_menu_3_2)2px, transparent 2.5px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+    .souligne_m3_3 {
+        background: linear-gradient(to top, var(--font_menu_3_3)0%, var(--font_menu_3_3)2px, transparent 2.5px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
     .color_texte_menu_3_titre {
         font-size: 2.5em;
     }
@@ -1137,7 +1152,7 @@ footer {
         font-size: 5em;
     }
     .seize_svg_m4 {
-        width: 10em;
+        width: 3.5em;
         height: auto;
     }
     .padding_titre_m4 {
