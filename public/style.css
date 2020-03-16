@@ -2,61 +2,61 @@
          
          @font-face {
              font-family: "Roboto";
-             src: url(/public/ressources/fonts/Roboto-Regular.ttf);
+             src: url('/public/ressources/fonts/Roboto-Regular.ttf');
          }
          /*police menu 1*/
          
          @font-face {
              font-family: "Devonshire";
-             src: url(/public/ressources/fonts/Devonshire-Regular.ttf);
+             src: url('/public/ressources/fonts/Devonshire-regular.ttf');
          }
          /*police menu 2*/
          
          @font-face {
              font-family: "CroissantOne";
-             src: url(/public/ressources/fonts/CroissantOne-Regular.ttf);
+             src: url('/public/ressources/fonts/CroissantOne-Regular.ttf');
          }
          /*police menu 2 "menu"*/
          
          @font-face {
              font-family: "RobotoSlab";
-             src: url(/public/ressources/fonts/RobotoSlab-Regular.ttf);
+             src: url('/public/ressources/fonts/RobotoSlab-Regular.ttf');
          }
          /*police menu 3*/
          
          @font-face {
              font-family: "DancingScript";
-             src: url(/public/ressources/fonts/DancingScript-Regular.ttf);
+             src: url('/public/ressources/fonts/DancingScript-Regular.ttf');
          }
          /*police menu 4*/
          
          @font-face {
              font-family: "KaushanScript";
-             src: url(/public/ressources/fonts/KaushanScript-Regular.ttf);
+             src: url('/public/ressources/fonts/KaushanScript-Regular.ttf');
          }
          /*police pargraphes menu 1.3.4*/
          
          @font-face {
              font-family: "Segoe_Print_Bold";
-             src: url(/public/ressources/fonts/Segoe_Print_Bold.ttf);
+             src: url('/public/ressources/fonts/Segoe_Print_Bold.ttf');
          }
          /*police pargraphes menu 1.3.4*/
          
          @font-face {
              font-family: "Segoe_Print_Regular";
-             src: url(/public/ressources/fonts/segoepr.ttf);
+             src: url('/public/ressources/fonts/segoepr.ttf');
          }
          /*police pargraphes menu 1.3.4*/
          
          @font-face {
              font-family: "Pax_bold";
-             src: url(/public/ressources/fonts/Pax\ 2\ Bold.ttf);
+             src: url('/public/ressources/fonts/Pax\ 2\ Bold.ttf');
          }
          /*police pargraphes menu 1.3.4*/
          
          @font-face {
              font-family: "Pax_regular";
-             src: url(/public/ressources/fonts/Pax\ 2\ Regular.ttf);
+             src: url('/public/ressources/fonts/Pax\ 2\ Regular.ttf');
          }
          
          * {
@@ -285,7 +285,6 @@
              -webkit-text-fill-color: transparent;
              background-image: -webkit-linear-gradient(left, var(--icon_menu_1_1), var(--icon_menu_1_2));
          }
-         /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
          
          .flex_lien_menu {
              padding: 4em 2em 0 2em;
@@ -758,7 +757,6 @@
          /*--------animation soustitres menu 2-------*/
          
          .souligne_m2_1 {
-             background: -o-linear-gradient(bottom, var(--font_menu_2_1)0%, var(--font_menu_2_1)4px, transparent 5px) no-repeat;
              background: linear-gradient(to top, var(--font_menu_2_1)0%, var(--font_menu_2_1)4px, transparent 5px) no-repeat;
              background-size: 0 100%;
              -webkit-transition: background-size .3s;
@@ -770,7 +768,6 @@
          }
          
          .souligne_m2_2 {
-             background: -o-linear-gradient(bottom, var(--font_menu_2_2)0%, var(--font_menu_2_2)4px, transparent 5px) no-repeat;
              background: linear-gradient(to top, var(--font_menu_2_2)0%, var(--font_menu_2_2)4px, transparent 5px) no-repeat;
              background-size: 0 100%;
              -webkit-transition: background-size .3s;
@@ -782,7 +779,6 @@
          }
          
          .souligne_m2_3 {
-             background: -o-linear-gradient(bottom, var(--font_menu_2_3)0%, var(--font_menu_2_3)4px, transparent 5px) no-repeat;
              background: linear-gradient(to top, var(--font_menu_2_3)0%, var(--font_menu_2_3)4px, transparent 5px) no-repeat;
              background-size: 0 100%;
              -webkit-transition: background-size .3s;
