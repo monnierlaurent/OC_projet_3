@@ -2,13 +2,13 @@
          
          @font-face {
              font-family: "Roboto";
-             src: url('/public/ressources/fonts/Roboto-Regular.ttf');
+             src: url();
          }
          /*police menu 1*/
          
          @font-face {
              font-family: "Devonshire";
-             src: url('/public/ressources/fonts/Devonshire-regular.ttf');
+             src: url(/public/ressources/fonts/DevonshireRegular.ttf);
          }
          /*police menu 2*/
          
