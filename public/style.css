@@ -8,55 +8,55 @@
          
          @font-face {
              font-family: "Devonshire";
-             src: url(/public/ressources/fonts/DevonshireRegular.ttf);
+             src: url(../public/ressources/fonts/DevonshireRegular.ttf);
          }
          /*police menu 2*/
          
          @font-face {
              font-family: "CroissantOne";
-             src: url(/public/ressources/fonts/CroissantOneRegular.ttf);
+             src: url(../public/ressources/fonts/CroissantOneRegular.ttf);
          }
          /*police menu 2 "menu"*/
          
          @font-face {
              font-family: "RobotoSlab";
-             src: url(/public/ressources/fonts/RobotoSlabRegular.ttf);
+             src: url(../public/ressources/fonts/RobotoSlabRegular.ttf);
          }
          /*police menu 3*/
          
          @font-face {
              font-family: "DancingScript";
-             src: url(/public/ressources/fonts/DancingScriptRegular.ttf);
+             src: url(../public/ressources/fonts/DancingScriptRegular.ttf);
          }
          /*police menu 4*/
          
          @font-face {
              font-family: "KaushanScript";
-             src: url(/public/ressources/fonts/KaushanScriptRegular.ttf);
+             src: url(../public/ressources/fonts/KaushanScriptRegular.ttf);
          }
          /*police pargraphes menu 1.3.4*/
          
          @font-face {
              font-family: "Segoe_Print_Bold";
-             src: url(/public/ressources/fonts/SegoePrintBold.ttf);
+             src: url(../public/ressources/fonts/SegoePrintBold.ttf);
          }
          /*police pargraphes menu 1.3.4*/
          
          @font-face {
              font-family: "Segoe_Print_Regular";
-             src: url(/public/ressources/fonts/segoepr.ttf);
+             src: url(../public/ressources/fonts/segoepr.ttf);
          }
          /*police pargraphes menu 1.3.4*/
          
          @font-face {
              font-family: "Pax_bold";
-             src: url(/public/ressources/fonts/Pax2Bold.ttf);
+             src: url(../public/ressources/fonts/Pax2Bold.ttf);
          }
          /*police pargraphes menu 1.3.4*/
          
          @font-face {
              font-family: "Pax_regular";
-             src: url(/public/ressources/fonts/Pax2Regular.ttf);
+             src: url(../public/ressources/fonts/Pax2Regular.ttf);
          }
          
          * {
