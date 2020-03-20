@@ -96,7 +96,7 @@
          /*------élements du body-------*/
          
          body {
-             width: 71%;
+             width: 72%;
              background-color: var(--noir);
              margin: auto;
          }
@@ -345,7 +345,7 @@
          .bloc_footer {
              position: fixed;
              bottom: 0;
-             width: 71%;
+             width: 72%;
          }
          
          .bloc_footer__div--flex--font-bgc {
