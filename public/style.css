@@ -342,10 +342,13 @@
              }
          }
          
-         .bloc_footer__div--flex--font-bgc {
+         .bloc_footer {
              position: fixed;
              bottom: 0;
-             width: 63.95%;
+             width: 70%;
+         }
+         
+         .bloc_footer__div--flex--font-bgc {
              height: 2em;
              display: flex;
              flex-direction: row;
@@ -353,7 +356,7 @@
              align-items: center;
              font-size: 2em;
              background-color: var(--vert_titre);
-             padding: 0 2em 0 2em;
+             padding: 0 2em 0 2em
          }
          
          .bloc_footer__lien--font {
