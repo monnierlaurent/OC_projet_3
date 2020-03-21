@@ -773,3 +773,104 @@
          .bloc_menu_4__paragraphe--padding_fin_2 {
              padding-bottom: 10em;
          }
+         
+         @media screen and (max-width: 1871px) {
+             body {
+                 width: 80%;
+             }
+             .bloc_footer {
+                 width: 80%;
+             }
+         }
+         
+         @media screen and (max-width: 1686px) {
+             body {
+                 width: 90%;
+             }
+             .bloc_footer {
+                 width: 90%;
+             }
+         }
+         
+         @media screen and (max-width: 1504px) {
+             body {
+                 width: 100%;
+             }
+             .bloc_footer {
+                 width: 100%;
+             }
+         }
+         
+         @media screen and (max-width: 1352px) {
+             .bloc_card__lien--flex {
+                 width: 45%;
+             }
+         }
+         
+         @media screen and (max-width: 1215px) {
+             .bloc_card {
+                 padding: 4em 2em 0 2em;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+             }
+             .bloc_card--margin_entre_2 {
+                 margin-top: 4rem;
+             }
+             .bloc_card__lien--flex {
+                 width: 60%;
+                 height: 55rem;
+             }
+             .bloc_prochainement__lien--font--bgc--padding {
+                 font-size: 2em;
+             }
+         }
+         /*@media screen and (max-width: 1165px) modif menu*/
+         
+         @media screen and (max-width: 935px) {
+             .bloc_card__lien--flex {
+                 width: 70%;
+             }
+             .bloc_prochainement__lien--font--bgc--padding {
+                 font-size: 1.7em;
+             }
+         }
+         
+         @media screen and (max-width: 808px) {
+             .bloc_card__lien--flex {
+                 width: 80%;
+             }
+             .bloc_prochainement__lien--font--bgc--padding {
+                 font-size: 1.7em;
+                 width: 30%;
+             }
+         }
+         
+         @media screen and (max-width: 718px) {
+             .bloc_card__lien--flex {
+                 width: 90%;
+             }
+             .bloc_prochainement__lien--font--bgc--padding {
+                 font-size: 1.7em;
+                 width: 35%;
+             }
+             .bloc_footer__div--flex--font-bgc {
+                 font-size: 1.6em;
+             }
+         }
+         
+         @media screen and (max-width: 663px) {
+             .bloc_card__lien--flex {
+                 width: 100%;
+                 height: 45rem;
+             }
+             .bloc_prochainement__lien--font--bgc--padding {
+                 font-size: 1.7em;
+                 width: 40%;
+             }
+             .bloc_footer__div--flex--font-bgc {
+                 font-size: 1.6em;
+             }
+         }
+         
+         @media screen and (max-width: 591px) {}
