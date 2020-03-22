@@ -437,7 +437,8 @@ a {
 .bloc_menu_1,
 .bloc_menu_2,
 .bloc_menu_3,
-.bloc_menu_4 {
+.bloc_menu_4,
+.bloc_menu_mentions {
     width: 85%;
     margin: auto;
     padding: 5em 0 3em 0;
@@ -479,7 +480,7 @@ a {
 }
 
 .bloc_menu_1_1__heading__img--padding {
-    padding-bottom: 0.8em;
+    padding-bottom: -4em;
 }
 
 .bloc_menu_1_1__heading__img--seize {
@@ -493,7 +494,8 @@ a {
 }
 
 .bloc_menu_1_1__heading__title--animation {
-    background: linear-gradient(to top, var(--font_menu_1)0%, var(--font_menu_1)4px, transparent 5px) no-repeat;
+    padding: 0;
+    background: linear-gradient(to top, var(--font_menu_1)0%, var(--font_menu_1)6%, transparent 5%) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
 }
@@ -613,7 +615,8 @@ a {
 }
 
 .bloc_menu_2__heading--animation_1 {
-    background: linear-gradient(to top, var(--font_menu_2_1)0%, var(--font_menu_2_1)4px, transparent 5px) no-repeat;
+    padding: 0;
+    background: linear-gradient(to top, var(--font_menu_2_1)0%, var(--font_menu_2_1)8%, transparent 9%) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
 }
@@ -623,7 +626,8 @@ a {
 }
 
 .bloc_menu_2__heading--animation_2 {
-    background: linear-gradient(to top, var(--font_menu_2_2)0%, var(--font_menu_2_2)4px, transparent 5px) no-repeat;
+    padding: 0;
+    background: linear-gradient(to top, var(--font_menu_2_2)0%, var(--font_menu_2_2)8%, transparent 9%) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
 }
@@ -633,7 +637,8 @@ a {
 }
 
 .bloc_menu_2__heading--animation_3 {
-    background: linear-gradient(to top, var(--font_menu_2_3)0%, var(--font_menu_2_3)4px, transparent 5px) no-repeat;
+    padding: 0;
+    background: linear-gradient(to top, var(--font_menu_2_3)0%, var(--font_menu_2_3)8%, transparent 9%) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
 }
@@ -703,7 +708,8 @@ a {
 }
 
 .bloc_menu_3__heading--animation_1 {
-    background: linear-gradient(to top, var(--font_menu_3_1)0%, var(--font_menu_3_1)4px, transparent 5px) no-repeat;
+    padding: 0;
+    background: linear-gradient(to top, var(--font_menu_3_1)0%, var(--font_menu_3_1)8%, transparent 9%) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
 }
@@ -713,7 +719,8 @@ a {
 }
 
 .bloc_menu_3__heading--animation_2 {
-    background: linear-gradient(to top, var(--font_menu_3_2)0%, var(--font_menu_3_2)4px, transparent 5px) no-repeat;
+    padding: 0;
+    background: linear-gradient(to top, var(--font_menu_3_2)0%, var(--font_menu_3_2)8%, transparent 9%) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
 }
@@ -723,7 +730,8 @@ a {
 }
 
 .bloc_menu_3__heading--animation_3 {
-    background: linear-gradient(to top, var(--font_menu_3_3)0%, var(--font_menu_3_3)4px, transparent 5px) no-repeat;
+    padding: 0;
+    background: linear-gradient(to top, var(--font_menu_3_3)0%, var(--font_menu_3_3)8%, transparent 9%) no-repeat;
     background-size: 0 100%;
     transition: background-size .3s;
 }
@@ -772,7 +780,8 @@ a {
 }
 
 .bloc_menu_4__heading--animation {
-    background: linear-gradient(to top, var(--font_menu_4_0)0%, var(--font_menu_4_0)4px, transparent 5px) no-repeat;
+    padding: 0;
+    background: linear-gradient(to top, var(--font_menu_4_0)0%, var(--font_menu_4_0)8%, transparent 9%) no-repeat;
     background-size: 0 100%;
     -webkit-transition: background-size .3s;
     transition: background-size .3s;
@@ -805,6 +814,28 @@ a {
 
 .bloc_menu_4__paragraphe--padding_fin_2 {
     padding-bottom: 10em;
+}
+
+
+/*-----mentions legales-----*/
+
+.bloc_mentions {
+    padding-top: 5em;
+}
+
+.bloc_mentions__padding_section {
+    padding: 2em 5em 2em 5em;
+    font-size: 1.4em;
+    font-family: "RobotoSlab";
+}
+
+.bloc_menu_mentions__title--margin {
+    margin-bottom: 1em;
+    text-decoration: underline 0.05em;
+}
+
+.bloc_mentions__liens--color {
+    color: var(--jaune_titre);
 }
 
 @media screen and (max-width: 1871px) {
