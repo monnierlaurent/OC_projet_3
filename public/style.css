@@ -774,7 +774,6 @@ a {
     padding: 0;
     background: linear-gradient(to top, var(--font_menu_4_0)0%, var(--font_menu_4_0)8%, transparent 9%) no-repeat;
     background-size: 0 100%;
-    -webkit-transition: background-size .3s;
     transition: background-size .3s;
 }
 
@@ -872,6 +871,13 @@ a {
     .bloc_menu_3__heading__img--seize {
         width: 20em;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 1332px) {
+    .bloc_prochainement__lien--font--bgc--padding {
+        font-size: 2.5em;
+        width: 30%;
     }
 }
 
@@ -1170,7 +1176,7 @@ a {
     }
     .bloc_prochainement__lien--font--bgc--padding {
         font-size: 1.7em;
-        width: 30%;
+        width: 35%;
     }
     .bloc_menu_3__heading__img--seize {
         width: 12em;
@@ -1413,6 +1419,10 @@ a {
         border-right: 4.5em solid transparent;
         border-top: 0.25em solid;
     }
+    .bloc_prochainement__lien--font--bgc--padding {
+        font-size: 1.5em;
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -1433,7 +1443,7 @@ a {
     }
     .bloc_prochainement__lien--font--bgc--padding {
         font-size: 1.2em;
-        width: 35%;
+        width: 40%;
     }
     .bloc_footer__div--flex--font-bgc {
         font-size: 1.2em;
@@ -1466,6 +1476,17 @@ a {
     .bloc_card__paragraphe--font {
         font-size: 2.2em;
     }
+    .bloc_prochainement__lien--font--bgc--padding {
+        font-size: 1.2em;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .bloc_prochainement__lien--font--bgc--padding {
+        font-size: 1.2em;
+        width: 42%;
+    }
 }
 
 @media screen and (max-width: 412px) {
@@ -1491,8 +1512,8 @@ a {
         font-size: 2em;
     }
     .bloc_prochainement__lien--font--bgc--padding {
-        font-size: 1em;
-        width: 35%;
+        font-size: 1.2em;
+        width: 45%;
     }
     .bloc_footer__div--flex--font-bgc {
         font-size: 1em;
@@ -1639,5 +1660,12 @@ a {
     }
     .bloc_footer__div--flex--font-bgc {
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .bloc_prochainement__lien--font--bgc--padding {
+        font-size: 1em;
+        width: 45%;
     }
 }
